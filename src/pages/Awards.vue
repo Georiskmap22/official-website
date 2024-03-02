@@ -29,7 +29,7 @@ const awards = [
         id: 2
     },
     {
-        link: 'https://precisegis.com.ng/humanitarian-mapping-exercise-for-improvement-in-hiv-aids-gender-based-violence-gbv-projects-in-nigeria',
+        link: 'https://www.geospatialworld.net/rising-stars/2022/pdf/50-Rising-Star-Booklet.pdf',
         title: `50 rising stars of the Geospatial industry for 2022`,
         formatTitle: truncate(`humanitarian mapping exercise for improvement in hiv aids gnder based violence projects in nigeria`,11),
         src: 'award2.jpeg',
@@ -50,7 +50,7 @@ const awards = [
         id: 5
     },  
     {
-        link: '../pdfs/Recognitions.pdf',
+        link: '../../public/Recognitions.pdf',
         title: `Recognition Letter from the United Nations Secretary-General’s Envoy on Youth`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
         src: 'award5.jpeg',
