@@ -42,7 +42,7 @@ const researchs = [
         id: 3
     },
     {
-        link: 'https://d1wqtxts1xzle7.cloudfront.net/67519972/Flood_hazard_mapping_in_Adamawa_NE_Nigeria_Ogunwumi_et_al_2021-libre.pdf?1622840535=&response-content-disposition=inline%3B+filename%3DGEOSPATIAL_MAPPING_OF_FLOOD_HAZARD_USING.pdf&Expires=1709382162&Signature=CfZepbFjW7PCWxvCmh7RKDQSbev1oC80Qa-7fqGg1vp2gOPY5lQqGbnylJRGBavQsnSMM4b2DySKUQjwyTtnlh0~AU11LjRapdkMc0BtgenB5nSnmlAS0nNMpSoZ5GsXgQgvf-9bXuLyT7xqs3C~T-gXNkK8fGWn7JgwrdSEZdqzsXgMw1ufk9A0Rfs56a0MjtGF-~hi4puOYLrH-rXfMrWmzDvIzsoy6BKaTZxgSwVoGo0~6JbSfk4p4CKBGRAqvILDOauJWpRedI0ObkkzlB6sxhq73ncjZRcMxhlEqaBgQkklRJ29X9l-fntwM0SkSHjI7ivJxgBmvlYR1jaISw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA',
+        link: 'https://drive.google.com/file/d/19S1gZ97LBZ4BtP5sh8A3LVW-Q_2afiW2/view?usp=sharing',
         title: `GEOSPATIAL MAPPING OF FLOOD HAZARD USING MULTI-CRITERIA APPROACH IN FUFORE LOCAL GOVERNMENT AREA, NORTH EASTERN NIGERIA`,
         formatTitle: truncate(`sambus news letter`,11),
         src: 'paper2.jpeg',

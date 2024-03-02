@@ -29,7 +29,7 @@ const vScrollReveal = createScrollRevealDirective({
     <Navbar />
  
     <Hero />
-    <Partners />
+    <Partners class="animate__animated animate__fadeIn"/>
     <WhoAreWe />
     <WhatWeDo />
     <OurVision />

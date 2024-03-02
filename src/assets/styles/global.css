@@ -8,3 +8,7 @@ img {
     display: block;
     object-fit: fill;
 }
+
+.animate_animated.animate_fadeIn {
+    --animate-duration: 4s;
+}
