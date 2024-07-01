@@ -12,8 +12,8 @@
                         </h3>
                     </a>
                 </div>
-                <div class="w-[90%] tab:w-full" target="_blank">
-                    <a href="https://ee-geohazardrisk-mapping.projects.earthengine.app/view/kogistatefloodassessment2022">
+                <div class="w-[90%] tab:w-full">
+                    <a href="https://ee-geohazardrisk-mapping.projects.earthengine.app/view/kogistatefloodassessment2022" target="_blank">
                         <p class="text-[#484848] font-merri font-[400] text-[0.8rem] mb-[0.5rem] leading-[0] tab2:text-[0.7rem] tab2:mb-[0.2rem]">Nigeria</p>
                         <h3 class="text-[#121212] font-merri font-[400] text-[1.3rem] leading-[1.8rem] tab2:text-[1rem] tab2:leading-[1.5rem]">
                             Kogi State 2022 flood inundation along the Benue river and its environ
