@@ -56,6 +56,14 @@ const awards = [
         src: 'award5.jpeg',
         id: 6
     },  
+    {
+        link: 'https://www.instagram.com/p/C8MjHVRqhCf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D&img_index=2',
+        title: `Audi Environmental Foundation Award`,
+        formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
+        src: 'award6.jpg',
+        id: 7,
+        object: 'cover'
+    },  
 ]
 
     const getImgUrl = (path) => {
@@ -78,7 +86,8 @@ const awards = [
                     <div class="grid grid-cols-2 mob:grid-cols-1 gap-6">
                         <a :href="card.link" v-for="card in awards" :key="card.id" class=" transition p-4 rounded-[0.5rem] cursor-pointer" target="_blank">
                             <div class="pic hover:scale-105 duration-500">
-                                <img :src="getImgUrl(card.src)" class="img-fluid overflow-hidden h-[15rem] w-full object-fill rounded-t-[0.5rem]" alt="Responsive image">
+                                <img :src="getImgUrl(card.src)" class="img-fluid overflow-hidden h-[15rem] w-full object-fit rounded-t-[0.5rem]" alt="Responsive image"
+                                :class="card.object === 'cover'? '!object-cover': 'object-fit' ">
                             </div>
                             <div class="C31 mt-3 uppercase text-[#134A39] text-[1rem] lg:text-[1rem] font-bold mob:text-[0.7rem]">
                                  {{ card.title }}

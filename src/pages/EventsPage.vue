@@ -50,6 +50,12 @@ const events = [
         src: 'https://youtu.be/LkVNv_K0WJs?si=TQblXm5rC_7DTjW5',
         id: 5
     },
+    {
+        link: 'https://www.youtube.com/embed/WOKi_yu6OxQ?si=O5l2Q36FXDLzIUao' + '?iv_load_policy=3&playsinline=1&rel=0',
+        title: truncate(`2022 Kogi Nigeria - Flood Extent Assessment Using Sentinel -1 Flood Dashboard | Google Earth Engine`,20),
+        src: 'https://www.youtube.com/watch?v=WOKi_yu6OxQ',
+        id: 6
+    },
     
     
 ]

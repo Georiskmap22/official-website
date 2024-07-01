@@ -11,10 +11,12 @@ import AppsAndData from '../components/AppsAndData.vue'
 import GetInvolved from '../components/GetInvolved.vue'
 import ReportFlood from '../components/ReportFlood.vue'
 import Footer from '../components/Footer.vue'
+import FloodExtentMap from "../components/FloodExtentMap.vue"
 // import "../assets/styles/main.scss"
 import "../assets/styles/App.scss"
 
 import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
+import Testimonial from '../components/Testimonial.vue'
 const vScrollReveal = createScrollRevealDirective({
     delay: 300,
     duration: 150,
@@ -35,7 +37,9 @@ const vScrollReveal = createScrollRevealDirective({
     <OurVision />
     <OurMission />
     <ReportFlood />
+    <FloodExtentMap />
     <AppsAndData />
+    <Testimonial />
     <GetInvolved />
     <Footer />
               

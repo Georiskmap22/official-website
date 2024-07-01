@@ -35,4 +35,19 @@ body {
   .show {
     @apply z-[9999] opacity-100;
   }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+  }
+  .customShadow {
+    box-shadow: 0px 8px 22px 0px #0000001A;
+    
+  }
+  .contain {
+    @apply !pl-0 !w-[80%] mx-auto
+  }
 }

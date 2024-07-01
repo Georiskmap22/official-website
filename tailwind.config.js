@@ -18,9 +18,10 @@ export default {
       gridTemplateColumns: {
         'temp': '2.5fr 2fr',
         'temp2': 'repeat(auto-fit, minmax(300px, 1fr))',
-        'temp3': 'auto 1fr',
+        'temp3': 'auto 1.5fr',
         'temp4': 'repeat(3, 1fr)',
-        'temp5': 'repeat(5, 1fr)'
+        'temp5': 'repeat(5, 1fr)',
+        'temp6': 'repeat(auto-fit, minmax(200px, 1fr))',
       },
       gridTemplateRows: {
         'row': 'auto 1fr',

@@ -118,6 +118,20 @@ const insights = [
         src: 'ins18.jpg',
         id: 15
     },
+    {
+        link: 'https://www.youthmappers.org/post/community-mapping-to-improve-flood-preparedness-and-disaster-risk-reduction',
+        title: `COMMUNITY MAPPING TO IMPROVE FLOOD PREPAREDNESS AND DISASTER RISK REDUCTION`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins22.png',
+        id: 16
+    },
+    {
+        link: 'https://blogs.lse.ac.uk/africaatlse/2024/06/06/green-infrastructure-is-needed-to-tackle-flooding-in-lagos',
+        title: `Green infrastructure is needed to tackle flooding in Lagos`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins23.jpg',
+        id: 17
+    },
     
 ]
 
