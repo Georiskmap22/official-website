@@ -5,14 +5,14 @@
             <h1 class="text-brandgreen font-cabin font-[600] text-[2.5rem] leading-[2rem] mb-[4rem] tab2:text-[2rem] tab2:mb-[2.5rem]">Flood Extent Map</h1>
             <div class="flex flex-col gap-[2rem] mb-[2rem]">
                 <div class="w-[90%] tab:w-full">
-                    <a href="https://emmanuelemezina1.projects.earthengine.app/view/akosombo-floods">
+                    <a href="https://emmanuelemezina1.projects.earthengine.app/view/akosombo-floods" target="_blank">
                         <p class="text-[#484848] font-merri font-[400] text-[0.8rem] mb-[0.5rem] leading-[0] tab2:text-[0.7rem] tab2:mb-[0.2rem]">Ghana</p>
                         <h3 class="text-[#121212] font-merri font-[400] text-[1.3rem] leading-[1.8rem] tab2:text-[1rem] tab2:leading-[1.5rem]">
                             2023 flood inundation within Akosombo and its environ
                         </h3>
                     </a>
                 </div>
-                <div class="w-[90%] tab:w-full">
+                <div class="w-[90%] tab:w-full" target="_blank">
                     <a href="https://ee-geohazardrisk-mapping.projects.earthengine.app/view/kogistatefloodassessment2022">
                         <p class="text-[#484848] font-merri font-[400] text-[0.8rem] mb-[0.5rem] leading-[0] tab2:text-[0.7rem] tab2:mb-[0.2rem]">Nigeria</p>
                         <h3 class="text-[#121212] font-merri font-[400] text-[1.3rem] leading-[1.8rem] tab2:text-[1rem] tab2:leading-[1.5rem]">
