@@ -28,6 +28,10 @@ body {
   font-family: 'Cabin', sans-serif;
 }
 
+.transitionAll {
+  transition: all 0.3s linear;
+}
+
 @layer components {
   .transition {
     @apply transition-all ease-linear duration-100;

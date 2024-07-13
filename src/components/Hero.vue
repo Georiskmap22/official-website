@@ -7,16 +7,16 @@
             <h1 class="text-[2.2rem] md:text-[2.45rem] text-center cabin  lg:text-[3.831rem]  font-semibold">GeoHazards; Predict, Prepare, and Protect.</h1>
 
             <p class="M20 white text-[0.8rem] md:text-[1.4rem] merri leading-[2rem] text-center" style="margin-bottom: 16px;">Promoting a sustainable environment through the           development, generating applications, and <br/>
-            dissemination of Geohazard maps using advanced Geospatial Technology
+            dissemination of Geohazard maps using advanced Geospatial Technology and Artificial Intelligence
             </p>
             <div class="flex gap-4 flex-col md:flex-row">
             <router-link class="" :to="{ name: 'floodEvent'}">
-              <button class=" text-lg bg-brandgreen transition rounded-[0.5rem] px-10 py-4 w-full">
+              <button class=" text-lg bg-brandgreen transitionAll rounded-[0.5rem] px-10 py-4 w-full">
                 View Flood Maps
               </button>
             </router-link>
             <router-link to="/dashboard">
-              <button class="px-10 py-4 text-lg border-[#EAF7F3] border bg-none transition rounded-[0.5rem] w-full">View Past Flood Events</button>
+              <button class="px-10 py-4 text-lg border-[#EAF7F3] border bg-none transitionAll rounded-[0.5rem] w-full">View Past Flood Events</button>
             </router-link>
 
       

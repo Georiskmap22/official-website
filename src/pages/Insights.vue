@@ -153,7 +153,7 @@ const insights = [
             <div class="">
                 <div class="">
                     <div class="grid grid-cols-2 mob:grid-cols-1 gap-6">
-                        <a :href="card.link" v-for="card in insights" :key="card.id" class=" transition p-4 rounded-[0.5rem] cursor-pointer" target="_blank">
+                        <a :href="card.link" v-for="card in insights" :key="card.id" class=" transitionAll p-4 rounded-[0.5rem] cursor-pointer" target="_blank">
                             <div class="pic hover:scale-105 duration-500">
                                 <img :src="getImgUrl(card.src)" class="img-fluid overflow-hidden h-[15rem] w-full object-fill rounded-t-[0.5rem]" alt="Responsive image">
                             </div>

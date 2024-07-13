@@ -13,7 +13,8 @@ export default {
         tertiary: '#415754',
         textgreen: '#134A39',
         primary500: '#2DB187',
-        foundation: '#207E60'
+        foundation: '#207E60',
+        'transparent': 'rgba(0, 0, 0, 50%)',
       },
       gridTemplateColumns: {
         'temp': '2.5fr 2fr',
@@ -30,6 +31,8 @@ export default {
       screens: {
         'tab': {'max': '900px'},
         'tab2': {'max': '1200px'},
+        'tab3': {'max': '1058px'},
+        'break': {'max': '1058px'},
         'mob': {'max': '600px'},
         'midDesk': {'max': '800px'},
         'desk': {'min': '900px'},

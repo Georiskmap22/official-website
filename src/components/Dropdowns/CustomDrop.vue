@@ -48,7 +48,7 @@ const props = defineProps({
              
            
              <MenuItem v-slot="{ active }">
-              <router-link :to="link.to">
+              <a :href="link.to" target="_blank">
             
                <button
                  :class="[
@@ -59,7 +59,7 @@ const props = defineProps({
                
                  {{ link.desc }}
                </button>
-              </router-link>
+              </a>
              </MenuItem>
            </div>
           </MenuItems>

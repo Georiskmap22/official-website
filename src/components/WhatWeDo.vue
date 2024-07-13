@@ -9,17 +9,7 @@
                 <div class="hero-text ">
                         <div class="text-[1.4rem] cabin md:text-[2.2rem] uppercase font-semibold text-center" style="margin-bottom: 55px;">What we do</div>
                         <p class="text-center merri leading-20 text-[1rem] md:text-[1.5rem]">
-                            GeoHazards Risk Mapping Initiative is focused on deploying volunteer youths who are skilled at
-                            using
-                            Geographic
-                            Information Systems and satellite imagery analysis to create susceptibility and emergency
-                            mapping of
-                            actual
-                            or
-                            expected natural, biological, and technological hazards being experienced in Nigeria and other
-                            African
-                            countries
-                            as a result of Climate Change.
+                            Geohazards Risk Mapping Initiative focuses on identifying and mapping areas at risk of various natural hazards such as floods, drought, and heatwaves. We leverage on advanced geospatial technology, Artificial Intelligence, and scientific research to create detailed risk maps, which are then used to inform and support disaster preparedness, mitigation, and response efforts.
                         </p>
                     </div>
             </div>

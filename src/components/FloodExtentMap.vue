@@ -21,7 +21,7 @@
                     </a>
                 </div>
             </div>
-            <button class="transition px-6 py-4 text-[0.8rem] bg-brandgreen text-white hover:text-brandgreen hover:bg-white hover:outline-2 shadow-md  merri rounded-[0.25rem] tab2:px-4 tab2:py-2">View All</button>
+            <button class="transitionAll px-6 py-4 text-[0.8rem] bg-brandgreen text-white hover:text-brandgreen hover:bg-white hover:outline-2 shadow-md  merri rounded-[0.25rem] tab2:px-4 tab2:py-2">View All</button>
         </div>
         <div>
             <img src="../../public/extent_map.png" alt="">

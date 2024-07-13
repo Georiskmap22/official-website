@@ -38,7 +38,7 @@
                                 and
                                 Emergency Management
                                 Institutions, Government
-                                Ministries, Community Leaders and Other
+                                Ministries, NGOs, Community Leaders and Other
                                 Environmental response stakeholders</div>
                         </div>
 
