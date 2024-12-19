@@ -2,7 +2,7 @@
    <section>
     <div class="w-[80%] mx-auto my-[4rem] grid grid-cols-temp2 gap-[2rem]">
         <div>
-            <h1 class="text-brandgreen font-cabin font-[600] text-[2.5rem] leading-[2rem] mb-[4rem] tab2:text-[2rem] tab2:mb-[2.5rem]">Flood Extent Map</h1>
+            <h1 class="text-brandgreen font-cabin font-[600] text-[2.5rem] leading-[2rem] mb-[4rem] tab2:text-[2rem] tab2:mb-[2.5rem]">Flood Impact Assessment Map</h1>
             <div class="flex flex-col gap-[2rem] mb-[2rem]">
                 <div class="w-[90%] tab:w-full">
                     <a href="https://emmanuelemezina1.projects.earthengine.app/view/akosombo-floods" target="_blank">
@@ -12,19 +12,25 @@
                         </h3>
                     </a>
                 </div>
-                <div class="w-[90%] tab:w-full">
+                <div class="w-[90%] tab:w-full flex flex-col gap-[2rem]">
                     <a href="https://ee-geohazardrisk-mapping.projects.earthengine.app/view/kogistatefloodassessment2022" target="_blank">
                         <p class="text-[#484848] font-merri font-[400] text-[0.8rem] mb-[0.5rem] leading-[0] tab2:text-[0.7rem] tab2:mb-[0.2rem]">Nigeria</p>
                         <h3 class="text-[#121212] font-merri font-[400] text-[1.3rem] leading-[1.8rem] tab2:text-[1rem] tab2:leading-[1.5rem]">
                             Kogi State 2022 flood inundation along the Benue river and its environ
                         </h3>
                     </a>
+                    <a href="https://ee-geohazardrisk-mapping.projects.earthengine.app/view/floodassesment030724" target="_blank">
+                        <p class="text-[#484848] font-merri font-[400] text-[0.8rem] mb-[0.5rem] leading-[0] tab2:text-[0.7rem] tab2:mb-[0.2rem]">Nigeria</p>
+                        <h3 class="text-[#121212] font-merri font-[400] text-[1.3rem] leading-[1.8rem] tab2:text-[1rem] tab2:leading-[1.5rem]">
+                            Flood Assessment: After Oshodi-Lagos storms on 3rd of July 2024
+                        </h3>
+                    </a>
                 </div>
             </div>
             <button class="transitionAll px-6 py-4 text-[0.8rem] bg-brandgreen text-white hover:text-brandgreen hover:bg-white hover:outline-2 shadow-md  merri rounded-[0.25rem] tab2:px-4 tab2:py-2">View All</button>
         </div>
-        <div>
-            <img src="../../public/extent_map.png" alt="">
+        <div class="">
+            <img src="../assets/img/floodMap.jpg" alt="" class="object-fill w-full h-full" loading="lazy">
         </div>
     </div>
    </section>

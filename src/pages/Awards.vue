@@ -64,6 +64,13 @@ const awards = [
         id: 7,
         object: 'cover'
     },  
+    {
+        link: 'https://www.instagram.com/p/C-kr-qttXnB/?igsh=MTNuaXdldmF5aXVpaA==',
+        title: `17 young Africans who through digitalization are accelerating the progress of the Sustainable Development Goals (SDGs)`,
+        formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
+        src: 'award8.png',
+        id: 8,
+    },  
 ]
 
     const getImgUrl = (path) => {

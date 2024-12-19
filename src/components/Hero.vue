@@ -3,7 +3,7 @@
 
 <template>
   <div class="hero-image">
-    <div class="hero-text h-full flex flex-col w-full justify-center items-center ">
+    <div class="hero-text h-full flex flex-col w-full justify-center items-center animate__animated animate__fadeIn animate__delay-1s">
             <h1 class="text-[2.2rem] md:text-[2.45rem] text-center cabin  lg:text-[3.831rem]  font-semibold">GeoHazards; Predict, Prepare, and Protect.</h1>
 
             <p class="M20 white text-[0.8rem] md:text-[1.4rem] merri leading-[2rem] text-center" style="margin-bottom: 16px;">Promoting a sustainable environment through the           development, generating applications, and <br/>

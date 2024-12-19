@@ -17,6 +17,14 @@ const testimonials = [
         message: 'The flood maps created by the Geohazard Risk Mapping Initiative have offered insightful data that governments, communities, and individuals can use to better prepare for flood events.',
         src: 'testimony2.jpg'
     },
+    {
+        id: 3,
+        name: 'Pauline Okeyo',
+        status: 'Senior Solution Engineer, Esri',
+        line: '',
+        message: `GRMI’s commitment to advancing the application of GIS in tackling flood-related challenges is truly commendable, as they have empowered their communities with essential skills in flood risk mapping. They have enabled more informed decision-making and fostered resilience in communities frequently impacted by floods. Their dedication to leveraging location intelligence for disaster risk reduction is a testament to their vital role in promoting sustainable development and protecting lives and livelihoods in Africa.`,
+        src: 'testimony3.png'
+    },
 ]
 
     const getImgUrl = (path) => {
@@ -31,7 +39,7 @@ const testimonials = [
 
         <div id="slideContainer" class="mt-[4rem] pl-[5rem] flex overflow-x-auto gap-6 w-full no-scrollbar scroll-smooth tab:pl-0 tab:w-[90%] tab:mx-auto text-[1.25rem] tab:text-[1rem]"
         :class=" testimonials.length <= 2? 'contain': 'pl-[5rem]'">
-            <article v-for="testimonial in testimonials" :key="testimonial.id" class="px-[1.9rem] py-[1.5rem] rounded-[0.9rem] flex flex-col gap-[0.6rem] bg-white customShadow text-[0.9rem] h-100 w-[20rem] grow shrink-0 basis-1/3 tab:basis-3/5 mob:basis-full">
+            <article v-for="testimonial in testimonials" :key="testimonial.id" class="px-[1.9rem] py-[1.5rem] rounded-[0.9rem] flex flex-col gap-[0.6rem] bg-white shadow-md text-[0.9rem] h-100 w-[20rem] grow shrink-0 basis-1/3 tab:basis-3/5 mob:basis-full">
                 <div class="flex gap-[1.2rem] items-center font-merri text-[#0B0B0B] font-bold mb-[0.9rem]">
                     <div class="">
                         <div class="w-[2.6rem] h-[2.6rem] rounded-full overflow-hidden">

@@ -149,14 +149,19 @@ const NavData = [
                 desc: "Research Papers",
             },
             {
-                id: 3,
+                id: 4,
                 to: "/awards",
                 desc: "Awards & Recognitions",
             },
             {
-                id: 3,
+                id: 5,
                 to: "/reports",
                 desc: "Annual Reports",
+            },
+            {
+                id: 6,
+                to: "/gallery",
+                desc: "Photos",
             },
 
         ] 

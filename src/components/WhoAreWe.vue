@@ -1,9 +1,26 @@
+<script setup>
+import AOS from 'aos';
+import { nextTick, onMounted } from 'vue'
+
+onMounted(() => {
+  nextTick(() => {
+    AOS.refresh();
+  });
+});
+
+</script>
+
 <template>
     <div class="container-section flex justify-center items-center flex-col">
-        <div class="w-[90%] pt-[12rem]">
+        <div class="w-[90%] pt-[12rem]" >
             <div class="hero-text text-white">
-                        <div class="text-[1.9rem] uppercase cabin text-center md:text-[3.06rem] font-semibold mb-[2.5rem]">Who are we?</div>
-                        <p class=" leading-8 text-center  merri md:leading-18 w-full text-[1rem] md:text-[1.32rem] mb-[4rem]">In line with the Sustainable Development Goal 11
+                        <div class="text-[1.9rem] uppercase cabin text-center md:text-[3.06rem] font-semibold mb-[2.5rem]" data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                        >Who are we?</div>
+                        <p class=" leading-8 text-center  merri md:leading-18 w-full text-[1rem] md:text-[1.32rem] mb-[4rem]" 
+                        data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="300">In line with the Sustainable Development Goal 11
                             (Sustainable Cities and Communities), Goal
                             13
                             (Climate
@@ -18,7 +35,8 @@
                         </p>
                         <!-- <button>Hire me</button> -->
                     </div>
-                    <div class="flex items-center justify-center mb-20 w-[70%] mob:w-[95%] mx-auto tab:flex-col gap-[2.1rem] mob:gap-4">
+                    <div class="flex items-center justify-center mb-20 w-[70%] mob:w-[95%] mx-auto tab:flex-col gap-[2.1rem] mob:gap-4" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="300">
                         <div class="flex items-center justify-center gap-4 w-full">   
                             <div>
                                 <img src="../assets/icons/who_are_we1.png" class="" alt="Responsive image">

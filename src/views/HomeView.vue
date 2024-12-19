@@ -21,6 +21,14 @@ const vScrollReveal = createScrollRevealDirective({
     delay: 300,
     duration: 150,
 });
+import AOS from 'aos';
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  nextTick(() => {
+    AOS.refresh();
+  });
+});
 
 </script>
 
@@ -31,16 +39,23 @@ const vScrollReveal = createScrollRevealDirective({
     <Navbar />
  
     <Hero />
-    <Partners class="animate__animated animate__fadeIn"/>
-    <WhoAreWe />
+    <Partners class="" data-aos="fade-up"
+    data-aos-duration="1000"/>
+    <WhoAreWe/>
     <WhatWeDo />
     <OurVision />
-    <OurMission />
-    <ReportFlood />
-    <FloodExtentMap />
-    <AppsAndData />
-    <Testimonial />
-    <GetInvolved />
+    <OurMission data-aos="fade-up"
+    data-aos-duration="2000"/>
+    <ReportFlood data-aos="fade-up"
+    data-aos-duration="3000"/>
+    <FloodExtentMap data-aos="fade-up"
+    data-aos-duration="4000"/>
+    <AppsAndData data-aos="fade-up"
+    data-aos-duration="5000"/>
+    <Testimonial data-aos="fade-up"
+    data-aos-duration="6000"/>
+    <GetInvolved data-aos="fade-up"
+    data-aos-duration="7000"/>
     <Footer />
               
   </div>

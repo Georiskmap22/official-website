@@ -33,6 +33,8 @@ export default {
         'tab2': {'max': '1200px'},
         'tab3': {'max': '1058px'},
         'break': {'max': '1058px'},
+        'break2': {'max': '1030px'},
+        'break3': {'min': '1030px'},
         'mob': {'max': '600px'},
         'midDesk': {'max': '800px'},
         'desk': {'min': '900px'},
