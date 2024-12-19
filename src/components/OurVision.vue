@@ -64,7 +64,7 @@ const handlePause = () => {
             <!-- Video -->
             <video
               ref="vidPlayer"
-              src="../assets/img/introVideo.mp4"
+              src="../../public/introVideo.mp4"
               class="!w-full h-full"
               @play="handlePlay"
               @pause="handlePause"
