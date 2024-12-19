@@ -32,7 +32,7 @@ import Navbar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
 import img from '../assets/icons/BgImage.png'
 
-const bgImage = img
+const bgImage = 'https://ik.imagekit.io/ldtt3hq8g2/Landing%20Page/BgImage.png?updatedAt=1734625141434'
 
 const getImgUrl = (path) => {
     return new URL(`../../public/${path}`, import.meta.url).href;
