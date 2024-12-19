@@ -17,7 +17,7 @@ const scrollToTop = () =>{
 
 
 }
-console.log(emailRef.value);
+// console.log(emailRef.value);
 
 </script>
 

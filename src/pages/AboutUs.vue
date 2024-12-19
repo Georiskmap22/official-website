@@ -15,12 +15,12 @@
             <div class="hero-text  text-center  w-100">
               <div class="white text-[3.8125rem]">About GRMI</div>
             </div>
-            <div>
+            <!-- <div>
               <CustomButton btn-text="Click me" type="success" size="lg" />
 
 
               <CustomButton btn-text="View Dashboard" type="outline-secondary" size="lg" style="color: white;" />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

@@ -14,7 +14,6 @@ import Footer from '../components/Footer.vue'
 import FloodExtentMap from "../components/FloodExtentMap.vue"
 // import "../assets/styles/main.scss"
 import "../assets/styles/App.scss"
-
 import { createScrollRevealDirective } from 'vue-scroll-reveal'; 
 import Testimonial from '../components/Testimonial.vue'
 const vScrollReveal = createScrollRevealDirective({
@@ -22,7 +21,7 @@ const vScrollReveal = createScrollRevealDirective({
     duration: 150,
 });
 import AOS from 'aos';
-import { onMounted } from 'vue'
+import { nextTick, onMounted } from 'vue'
 
 onMounted(() => {
   nextTick(() => {
@@ -34,7 +33,7 @@ onMounted(() => {
 
 
 <template>
-  <div id="app">
+  <div id="app" class="w-full">
    
     <Navbar />
  

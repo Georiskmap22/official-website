@@ -1,6 +1,6 @@
 <template>
     <nav class="flex flex-col merri w-fit text-[13px] rounded-md items-center justify-between">
-        <div id="overlay" class="fixed top-0 backdrop-blur-sm bg-[rgba(0,0,0,0.5)] w-screen h-full transition z-[9999]">
+        <div id="overlay" class="fixed top-0 backdrop-blur-sm bg-[rgba(0,0,0,0.5)] w-screen h-full transition z-[9999] border border-[red]">
 
         </div>
         <ul
