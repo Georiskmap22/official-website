@@ -20,17 +20,14 @@
             <router-link to="/dashboard">
               <button class="px-10 py-4 text-lg border-[#EAF7F3] border bg-none transitionAll rounded-[0.5rem] w-full">View Past Flood Events</button>
             </router-link>
-
-      
           </div>
     </div>   
   </div> 
 </template>
 
-<style scoped>
+<style scoped> 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg1.png');
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734874726/bg1_11zon_ekilyg.jpg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

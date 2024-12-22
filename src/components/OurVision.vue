@@ -64,7 +64,7 @@ const handlePause = () => {
             <!-- Video -->
             <video
               ref="vidPlayer"
-              src="../../public/introVideo.mp4"
+              src="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1734875799/introVideo_mavzmw.mp4"
               class="!w-full h-full"
               @play="handlePlay"
               @pause="handlePause"

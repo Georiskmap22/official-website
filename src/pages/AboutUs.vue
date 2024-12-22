@@ -90,9 +90,9 @@
                   </div>
                   </div>
                   <div class="images-container ">
-                    <img class="item" src='../assets/icons/about_us1.png'>
-                    <img class="item" src='../assets/icons/about_us2.png'>
-                    <img class="item" src='../assets/icons/about_us3.png'>
+                    <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689055/about_us1_lzlcgq.png'>
+                    <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689055/about_us2_xvjcdy.png'>
+                    <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689056/about_us3_ib5x8s.png'>
                     <img class="item" src='../assets/icons/about_us4.png'>
                   </div>
                 </div>
@@ -109,7 +109,7 @@
 
 <style scoped>
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/waleszn/image/upload/q_30/v1695970926/about_us_bg_tcgesm.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734875236/about_us_bg_tl1rqb.webp');
   height: 112vh;
   background-position: center;
   background-repeat: no-repeat;
