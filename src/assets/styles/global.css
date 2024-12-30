@@ -12,3 +12,9 @@ img {
 .animate_animated.animate_fadeIn {
     --animate-duration: 4s;
 }
+
+@media (max-width: 1280px){
+    html {
+        font-size: 12.222px !important;
+    }
+}

@@ -69,6 +69,11 @@ const NavData = [
                 to: "/floodEvent",
                 desc: "Webmap & StoryMap",
             },
+            {
+                id: 3,
+                to: "/undrr",
+                desc: "UNDRR",
+            },
             // {
             //     id: 2,
             //     to: "/proposed-projects",

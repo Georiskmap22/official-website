@@ -79,6 +79,11 @@ const router = createRouter({
       name: "gallery",
       component: () => import('../pages/Gallery.vue'),
     },
+    {
+      path: "/undrr",
+      name: "undrr",
+      component: () => import('../pages/schools/Homepage.vue'),
+    },
   ]
 })
 

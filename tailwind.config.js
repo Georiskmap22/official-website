@@ -23,6 +23,9 @@ export default {
         'temp4': 'repeat(3, 1fr)',
         'temp5': 'repeat(5, 1fr)',
         'temp6': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'customGrid': 'repeat(auto-fit, minmax(200px, 1fr))',
+        'customGrid2': 'repeat(auto-fit, minmax(250px, 1fr))',
+        'customGrid3': 'repeat(auto-fit, minmax(150px, 1fr))',
       },
       gridTemplateRows: {
         'row': 'auto 1fr',
