@@ -2,7 +2,7 @@
     <section class="w-full pt-[5rem]">
         <animatedText :text="text"/>
       <div class="mt-[5.5rem]">
-          <img src="../../assets/img/Group 9.png" alt="background image">
+          <img src="../../assets/img/Group9.png" alt="background image">
       </div>
     </section>
   </template>
