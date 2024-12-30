@@ -15,7 +15,7 @@
             class="mb-[0.5rem] shadow-md cursor-pointer overflow-hidden transform transition-transform duration-300 hover:shadow-2xl w-full h-full"
           >
             <img
-              :src="photo.loading ? placeholderImage : photo.source"
+              :src="photo.source"
               :data-src="photo.source"
               alt="Media image"
               class="w-full h-full object-cover transition-opacity duration-300 hover:opacity-90"
@@ -36,7 +36,7 @@
             class="mb-[0.5rem] shadow-md cursor-pointer overflow-hidden transition-transform duration-300 hover:shadow-2xl w-full h-full"
           >
             <img
-              :src="photo.loading ? placeholderImage : photo.source"
+              :src="photo.source"
               :data-src="photo.source"
               alt="Media image"
               class="w-full h-full object-cover transition-opacity duration-300 hover:opacity-90"
