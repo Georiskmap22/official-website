@@ -80,8 +80,8 @@ const router = createRouter({
       component: () => import('../pages/Gallery.vue'),
     },
     {
-      path: "/undrr",
-      name: "undrr",
+      path: "/Children&Disaster",
+      name: "Children&Disaster",
       component: () => import('../pages/schools/Homepage.vue'),
     },
   ]
