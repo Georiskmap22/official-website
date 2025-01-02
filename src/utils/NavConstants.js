@@ -71,8 +71,8 @@ const NavData = [
             },
             {
                 id: 3,
-                to: "/undrr",
-                desc: "UNDRR",
+                to: "/Children&Disaster",
+                desc: "Children & Disaster",
             },
             // {
             //     id: 2,

@@ -1,7 +1,7 @@
 <template>
   <section class="w-full py-[4.3rem] midDesk:pt-0 mob:pb-0">
    <animatedText :text="text"/>
-   <div class="h-[100vh] w-[95.8%] mx-auto relative image-layout mob:h-[70vh] mt-4">
+   <div class="h-[calc(100vh+4rem)] w-[95.8%] mx-auto relative image-layout mob:h-[70vh] mt-4">
     <div 
     v-for="image in images"
     :key="image.id"

@@ -17,7 +17,7 @@
         <img src="../assets/icons/hot.png" class="" alt="">
         <img src="../assets/icons/fair.png" class="" alt="">
         <img src="../assets/icons/audi.jpeg" class="" alt="">
-        <!-- <img src="../assets/icons/mark.png" class="" alt=""> -->
+        <img src="../assets/icons/africa.jpg" class="" alt="">
         <!-- <img src="../assets/icons/blue.png" class="" alt=""> -->
       </article>
     </div>
