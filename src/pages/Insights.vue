@@ -152,6 +152,38 @@ const insights = [
         id: 18,
         cover: true
     },
+    {
+        link: 'https://www.vanguardngr.com/2025/01/climate-change-group-calls-for-urgent-govt-actions-to-protect-schools-in-flood-prone-areas/',
+        title: `Climate Change: Group calls for urgent govt actions to protect schools in flood-prone areas`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins25.png',
+        id: 25,
+        cover: true
+    },
+    {
+        link: 'https://tribuneonlineng.com/?p=1026226',
+        title: `Invest in flood-resilient schools, group urges FG, states`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins26.png',
+        id: 26,
+        cover: true
+    },
+    {
+        link: 'https://businessday.ng/life/article/how-youth-led-initiative-is-empowering-kogis-future-generation-to-combat-flood-risks-others/',
+        title: `How youth-led initiative is empowering Kogi’s future generation to combat flood risks, others`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins26.png',
+        id: 27,
+        cover: true
+    },
+    {
+        link: 'https://newtelegraphng.com/flooding-ngo-launches-disaster-risk-reduction-initiative-in-kogi/',
+        title: `Flooding: NGO Launches Disaster Risk Reduction Initiative In Kogi`,
+        formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
+        src: 'ins27.png',
+        id: 28,
+        cover: true
+    },
     
 ]
 

@@ -7,7 +7,7 @@
                 </h3>
             </div>
             <videoPlayer 
-                imgSource="https://res.cloudinary.com/dmgwwzsnk/image/upload/v1735257354/Screenshot_474_rnrolu.png"
+                imgSource="/public/vidThumbnail1.png"
                 vidSource="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1735254383/Interview_1_mxpt5u.mp4"
             />
         </div>
@@ -18,7 +18,7 @@
                 </h3>
             </div>
             <videoPlayer 
-                imgSource="https://res.cloudinary.com/dmgwwzsnk/image/upload/v1735257346/Screenshot_475_admjgk.png"
+                imgSource="/public/vidThumbnail2.png"
                 vidSource="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1735255737/Interview_2_1_p9nsq8.mp4"
             />
         </div>
