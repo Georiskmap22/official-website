@@ -7,7 +7,7 @@
                 </h3>
             </div>
             <videoPlayer 
-                imgSource="/public/vidThumbnail1.png"
+                imgSource="/vidThumbnail1.png"
                 vidSource="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1735254383/Interview_1_mxpt5u.mp4"
             />
         </div>
@@ -18,7 +18,7 @@
                 </h3>
             </div>
             <videoPlayer 
-                imgSource="/public/vidThumbnail2.png"
+                imgSource="/vidThumbnail2.png"
                 vidSource="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1735255737/Interview_2_1_p9nsq8.mp4"
             />
         </div>
