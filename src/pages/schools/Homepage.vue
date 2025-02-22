@@ -6,9 +6,11 @@
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <MediaAppearance />
         <SectionFive />
         <SectionSix />
         <SectionSeven />
+        <Partners />
     </section>
     <Footer />
 </template>
@@ -23,6 +25,8 @@ import SectionFour from '@/components/sections/SectionFour.vue';
 import SectionFive from '@/components/sections/SectionFive.vue';
 import SectionSix from '@/components/sections/SectionSix.vue';
 import SectionSeven from '@/components/sections/SectionSeven.vue';
+import MediaAppearance from '@/components/ui/MediaAppearance.vue';
+import Partners from '@/components/ui/ChildrenDisasterPartners.vue';
 import Footer from '@/components/Footer.vue'
 
 </script>

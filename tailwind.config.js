@@ -41,6 +41,7 @@ export default {
         'mob': {'max': '600px'},
         'midDesk': {'max': '800px'},
         'desk': {'min': '900px'},
+        'window': {'min': '1300px'},
       },
       fontFamily: {
         'cabin': ['Cabin'],

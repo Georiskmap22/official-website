@@ -14,7 +14,7 @@
             <p class="text-[#E9EBF8] font-merri font-[400] text-[1.9rem] midDesk:text-[1.2rem] leading-[2.3rem] mob:text-[1rem]">Empowering Children in Disaster Risk Reduction</p>
         </div> -->
         <videoPlayer 
-            imgSource="https://res.cloudinary.com/dmgwwzsnk/image/upload/v1735037350/Rectangle_2_yj43a6.jpg"
+            imgSource="/public/ins26.png"
             vidSource="https://res.cloudinary.com/dmgwwzsnk/video/upload/v1735208954/Haleemat_S_Interview_zdxanc.mp4"
         />
     </section>
