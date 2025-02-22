@@ -1,6 +1,6 @@
-# grmi
+# Geohazards Risk Mapping Initiative
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the official documentation of the GRMI website. This template should help you get started with contributing to the code base
 
 # After cloning repo
 
