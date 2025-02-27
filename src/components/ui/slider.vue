@@ -7,7 +7,7 @@
       :style="{ height: height, width: width }"
       :href="image.link"
     >
-      <img :src="getImgUrl(image.src)" alt="Image Logo" class="h-full object-contain block mob:!object-cover" loading="lazy">
+      <img :src="getImgUrl(image.src)" alt="Image Logo" class="h-full object-contain block mob:!object-cover grayscale hover:grayscale-0 transitionEffect" loading="lazy">
     </a>
   </div>
 </template>
