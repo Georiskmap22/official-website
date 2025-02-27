@@ -13,6 +13,10 @@ img {
     --animate-duration: 4s;
 }
 
+.transitionEffect {
+    transition: all 0.3s linear;
+}
+
 @keyframes pulse {
     0% { opacity: 0.6; }
     50% { opacity: 1; }

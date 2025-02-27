@@ -1,6 +1,6 @@
 <template>
     <section class="bg-white pt-[3rem] !pb-[8rem]">
-      <h1 class="text-[#0E1C16] font-cabin font-[500] text-[2.25rem] leading-[2.7rem] ml-[5rem] mb-[2rem]">Partners</h1>
+      <h1 class="text-[#0E1C16] font-cabin font-[500] text-[2.25rem] leading-[2.7rem] ml-[5rem] mb-[2rem] uppercase">Partners</h1>
       <div class="pl-[7.5rem]">
           <slider :images="partners" :speed="0"/>
       </div>

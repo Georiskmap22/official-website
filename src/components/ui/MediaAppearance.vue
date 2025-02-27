@@ -1,6 +1,6 @@
 <template>
   <section class="bg-white pt-[6rem]">
-    <h1 class="text-[#0E1C16] font-cabin font-[500] text-[2.25rem] leading-[2.7rem] ml-[5rem] mb-[2rem]">Media Appearances</h1>
+    <h1 class="text-[#0E1C16] font-cabin font-[500] text-[2.25rem] leading-[2.7rem] ml-[5rem] mb-[2rem] uppercase">Media Appearances</h1>
     <div>
         <slider :images="displayedImages" :speed="0.5"/>
     </div>
