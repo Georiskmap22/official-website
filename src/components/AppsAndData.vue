@@ -10,18 +10,9 @@ import Carousel from './carousel/Carousel.vue';
                    FLOOD MAPS
                 </div>
             </div>
-
             <div class="w-100 images-container">
                 <Carousel />
-
-
-
             </div>
-
-
-
-
-
         </div>
     </div>
 </template>
@@ -33,8 +24,6 @@ import Carousel from './carousel/Carousel.vue';
 
 
 @media (max-width: 767px) {
-
-
     .carousel .carousel-control {
         height: 60px !important;
         width: 60px !important;
@@ -48,18 +37,7 @@ import Carousel from './carousel/Carousel.vue';
     .carousel .carousel-control-next {
         margin-right: 25px;
     }
-
-
 }
-
-
-
-
-
-
-
-
-
 
 .carousel .carousel-control {
     height: 100px;
