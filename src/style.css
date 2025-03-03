@@ -58,4 +58,8 @@ body {
   .contain {
     @apply !pl-0 !w-[80%] mx-auto
   }
+
+  input, textarea {
+    @apply focus:outline-none text-[1rem]
+  }
 }

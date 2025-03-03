@@ -34,9 +34,7 @@ onMounted(() => {
 
 <template>
   <div id="app" class="w-full">
-   
     <Navbar />
- 
     <Hero />
     <Partners class="" data-aos="fade-up"
     data-aos-duration="1000"/>
