@@ -79,8 +79,8 @@ const closeModal = ()=>{
                     </h3>
       
                     <div class="flex flex-col space-y-3">
-                      <input type="text" class="border border-brandgreen w-full p-3 rounded-md" placeholder="Enter your name" v-model="name" name="from_name">
-                      <input type="email" class="border border-brandgreen w-full p-3 rounded-md" placeholder="Enter Your Email" v-model="mail" name="reply_to">
+                      <input type="text" class="border border-brandgreen w-full p-3 rounded-md" placeholder="Name" v-model="name" name="from_name">
+                      <input type="email" class="border border-brandgreen w-full p-3 rounded-md" placeholder="Email" v-model="mail" name="reply_to">
                       <input type="text" class="border border-brandgreen w-full p-3 rounded-md" placeholder="What do you do?" v-model="occupation" name="occupation">
                       <textarea placeholder="Enter your message here" class="border border-brandgreen w-full p-3 rounded-md" rows="5"  v-model="message" name="message"/>
       
