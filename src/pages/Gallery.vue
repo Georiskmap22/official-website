@@ -42,6 +42,14 @@
 import Navbar from '../components/Navbar.vue';
 import Footer from '../components/Footer.vue';
 import { onMounted, ref } from 'vue';
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Gallery',
+  description: 'Browse through a collection of photos capturing GRMI’s fieldwork, projects, and efforts in geohazard risk mapping, environmental conservation, and disaster resilience across various communities.',
+  keywords: ["GRMI Photos", "Geohazard Mapping Photos", "Disaster Resilience Imagery", "Environmental Conservation Photography", "Fieldwork Photos", "Geospatial Projects Images"]
+})
+
 
 const loadingImages = ref(true)
 const photos = ref([])

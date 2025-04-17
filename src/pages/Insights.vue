@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'News and Media',
+  description: 'Stay updated with the latest news, media coverage, and press releases from GRMI. Explore our efforts in geohazard risk mapping, disaster resilience, and community protection, alongside featured articles and media highlights',
+  keywords: ["Geohazard News", "Disaster Resilience", "GRMI News", "Environmental Protection", "Community Resilience", "Risk Mapping Updates"]
+})
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 

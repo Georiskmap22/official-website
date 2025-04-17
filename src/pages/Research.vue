@@ -3,6 +3,14 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Research Papers',
+  description: 'Access a collection of GRMI’s research papers, articles, and publications focused on geohazard risk mapping, disaster management, and environmental resilience. Stay updated with the latest scientific findings and methodologies.',
+  keywords: ["Geohazard Research", "Disaster Management Papers", "Environmental Resilience Studies", "Risk Mapping Publications", "Geospatial Research", "Scientific Papers on Disasters"]
+})
+
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 

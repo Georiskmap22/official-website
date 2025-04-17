@@ -61,12 +61,12 @@ const NavData = [
         links: [
             {
                 id: 1,
-                to: "/completed-projects",
+                to: "/cartographic-maps",
                 desc: "Cartographic Map",
             },
             {
                 id: 1,
-                to: "/floodEvent",
+                to: "/floodMaps",
                 desc: "Webmap & StoryMap",
             },
             {
@@ -140,7 +140,7 @@ const NavData = [
         links: [
             {
                 id: 1,
-                to: "/insights",
+                to: "/news",
                 desc: "News and Media",
             },
             {
