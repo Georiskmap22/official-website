@@ -20,7 +20,7 @@ const router = createRouter({
       component: () => import('../pages/Team.vue'),
     },
     {
-      path: "/completed-projects",
+      path: "/cartographic-maps",
       name: "completedProjects",
       component: () => import('../pages/Projects/CompletedProjects.vue'),
     },
@@ -45,7 +45,7 @@ const router = createRouter({
       component: () => import('../pages/Career.vue'),
     },
     {
-      path: "/insights",
+      path: "/news",
       name: "Insights",
       component: Insights,
     },
@@ -60,7 +60,7 @@ const router = createRouter({
       component: () => import('../pages/Research.vue'),
     },
     {
-      path: "/floodevent",
+      path: "/floodMaps",
       name: "floodEvent",
       component: () => import('../pages/FloodEvent.vue'),
     },

@@ -28,6 +28,14 @@ import SectionSeven from '@/components/sections/SectionSeven.vue';
 import MediaAppearance from '@/components/ui/MediaAppearance.vue';
 import Partners from '@/components/ui/ChildrenDisasterPartners.vue';
 import Footer from '@/components/Footer.vue'
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Children’s Safety in Geohazard Events',
+  description: 'Learn how GRMI addresses the unique vulnerabilities of children in disaster-prone areas, with a focus on protection, preparedness, and ensuring child-centered disaster risk management strategies.',
+  keywords: ["Children’s Safety", "Disaster Risk Management", "Child Protection in Disasters", "Geohazard Resilience", "Disaster Preparedness for Children", "Vulnerable Populations", "Disaster Risk Reduction"]
+  ,
+})
 
 </script>
 

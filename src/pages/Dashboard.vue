@@ -4,6 +4,13 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue';
 import Spinner from '../components/Spinner.vue';
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Historical Flood Events & Analytics',
+  description: 'Access GRMI’s interactive dashboard showcasing historical flood events with detailed data, maps, and analysis to support research, planning, and risk mitigation efforts.',
+  keywords: ['GRMI', 'Dashboard', 'Geohazard', 'Risk Mapping', 'Past Flood Analytics', 'Historical Flood Events'],
+})
 
 const isLoading = ref(true)
 

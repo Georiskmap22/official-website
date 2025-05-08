@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Events',
+  description: 'Explore events, workshops, and conferences hosted or supported by GRMI. Stay informed on our efforts to raise awareness and promote collaboration in geohazard risk mapping and disaster resilience.',
+  keywords: ["GRMI Events", "Geohazard Workshops", "Disaster Resilience Conferences", "Risk Mapping Events", "Environmental Awareness", "Geospatial Collaboration"]
+})
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 

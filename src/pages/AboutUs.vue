@@ -2,6 +2,13 @@
   import Navbar from '../components/Navbar.vue'
   import Footer from '../components/Footer.vue'
   import "../assets/styles/App.scss"
+  import { usePageHead } from '@/utils/usePageHead'
+
+  usePageHead({
+    title: 'About',
+    description: 'Learn more about GRMI and what we do.',
+    keywords: ['GRMI', 'About Us', 'Geohazard', 'Risk Mapping'],
+  })
 </script>
 
 <template>

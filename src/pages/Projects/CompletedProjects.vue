@@ -6,6 +6,13 @@ import {ref} from "vue"
 import "../../assets/styles/App.scss"
 import ShowMap from '../../components/modals/ShowMap.vue';
 import AppsData from '../../utils/AppsData';
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Cartographic Maps',
+  description: 'Browse GRMI’s collection of detailed cartographic maps used in geohazard risk assessment, showcasing terrain analysis, flood zones, and spatial data for informed decision-making.',
+  keywords: ['GRMI', 'Maps', 'Geohazard', 'Risk Mapping'],
+})
 
 
 // const store = useFrameStore()

@@ -3,6 +3,14 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Awards and Recognitions',
+  description: 'Explore GRMI’s awards and recognitions for excellence in geohazard risk mapping, environmental resilience, and disaster management. Discover how our efforts have been acknowledged globally in the field of geospatial science.',
+  keywords: ["GRMI Awards", "Geohazard Recognition", "Disaster Management Excellence", "Environmental Resilience Awards", "Geospatial Science Recognition", "Global Disaster Risk Reduction"]
+})
+
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 

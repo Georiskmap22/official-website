@@ -3,6 +3,14 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Annual Reports',
+  description: 'Explore GRMI’s annual reports highlighting key achievements, project outcomes, and impact assessments in geohazard risk mapping, disaster resilience, and environmental protection efforts over the years.',
+  keywords: ["GRMI Annual Reports", "Geohazard Reports", "Disaster Resilience Impact", "Environmental Protection Reports", "Risk Mapping Annual Review", "Geospatial Research Reports"]
+})
+
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 

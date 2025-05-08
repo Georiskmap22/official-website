@@ -3,6 +3,13 @@ import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
 // import Card from '../components/Cards/Card.vue'
 import "../assets/styles/App.scss"
+import { usePageHead } from '@/utils/usePageHead'
+
+usePageHead({
+  title: 'Interactive Flood Maps',
+  description: 'Explore GRMI’s detailed flood maps, providing critical insights into flood-prone areas, risk assessments, and disaster preparedness to mitigate flood impacts in vulnerable regions',
+  keywords: ['GRMI', 'Flood Maps', 'Geohazard', 'Risk Mapping'],
+})
 
 function wordsLen(str) { 
     const array = str.trim().split(/\s+/); 
