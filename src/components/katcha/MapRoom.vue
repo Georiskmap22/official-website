@@ -14,7 +14,7 @@
           <div class="w-full aspect-[4962/3506] overflow-hidden bg-[#0E1C16]">
             <img
               :src="`/media/katcha/maps/thumb/${map.file}.jpg`"
-              :alt="`${map.title} — map sheet ${map.sheet}`"
+              :alt="`${map.title}, map sheet ${map.sheet}`"
               loading="lazy"
               class="w-full h-full object-cover group-hover:scale-[1.03] transitionAll"
             />

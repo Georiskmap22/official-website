@@ -13,14 +13,31 @@
       </p>
     </div>
 
-    <!-- Placeholder: field film not yet delivered. Swap for <videoPlayer imgSource vidSource /> -->
-    <VideoPlaceholder label="Field film" note="Coming soon" />
+    <!-- Field film: a 50s landscape cut assembled from the July 2026 field footage
+         (handover, planting, the standing rice), reframed shot by shot from the vertical
+         original. Runs full-bleed, as the placeholder band did. -->
+    <figure class="w-[95.8%] mx-auto">
+      <FramedVideo
+        src="/media/katcha/video/field-film.mp4"
+        poster="/media/katcha/video/field-film-poster.jpg"
+        label="field film of the FARO 67 handover and planting in Katcha Ward"
+        :width="1280"
+        :height="720"
+      />
+      <figcaption
+        class="text-[#436256] font-merri text-[1rem] leading-[1.5rem] text-center mt-[1.5rem] max-w-[46ch] mx-auto midDesk:text-[0.875rem]"
+      >
+        Katcha Ward, July 2026: twenty members of the farmers' association each receive a
+        10 kg pack of FARO 67, the chairman plants his on the floodplain, and the rice comes
+        up on ground the satellite record marks as flooding year after year.
+      </figcaption>
+    </figure>
   </section>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import VideoPlaceholder from './VideoPlaceholder.vue'
+import FramedVideo from './FramedVideo.vue'
 
 const titleText = ref('')
 const subtitleText = ref('')

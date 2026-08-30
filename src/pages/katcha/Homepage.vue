@@ -6,11 +6,9 @@
     <TheSeed />
     <FarmerVoices />
     <MapRoom />
-    <KatchaMedia />
     <ArticlesGrid />
     <FieldGallery />
     <ClosingCall />
-    <KatchaPartners />
   </section>
   <Footer />
 </template>
@@ -22,11 +20,9 @@ import PressScatter from '@/components/katcha/PressScatter.vue'
 import TheSeed from '@/components/katcha/TheSeed.vue'
 import FarmerVoices from '@/components/katcha/FarmerVoices.vue'
 import MapRoom from '@/components/katcha/MapRoom.vue'
-import KatchaMedia from '@/components/katcha/KatchaMedia.vue'
 import ArticlesGrid from '@/components/katcha/ArticlesGrid.vue'
 import FieldGallery from '@/components/katcha/FieldGallery.vue'
 import ClosingCall from '@/components/katcha/ClosingCall.vue'
-import KatchaPartners from '@/components/katcha/KatchaPartners.vue'
 import Footer from '@/components/Footer.vue'
 import { usePageHead } from '@/utils/usePageHead'
 

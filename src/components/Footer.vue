@@ -5,6 +5,9 @@ import SubscribeNewsletterModal from "./modals/SubscribeNewsletterModal.vue";
 
 const isOpen = ref(false)
 const emailRef = ref("")
+
+// Read at render time so the copyright line does not need editing each January.
+const currentYear = new Date().getFullYear()
 const openModal = ()=>{
     isOpen.value=true;
 }
@@ -118,7 +121,7 @@ const scrollToTop = () =>{
 
             <div class="flex merri text-center flex-col w-full justify-center items-center" style="margin-top: 114px;">
                 <div class="M13 white d-flex justify-content-center mb-3">
-                    2020 - 2023 georiskmap.org © ALL RIGHTS RESERVED
+                    2020 - {{ currentYear }} georiskmap.org © ALL RIGHTS RESERVED
                     <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
                 </div>
                 <div class="M10 white d-flex justify-content-center">

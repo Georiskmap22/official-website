@@ -35,7 +35,7 @@
           “{{ quote.text }}”
         </blockquote>
         <figcaption class="mt-[1rem] font-cabin text-[1rem] text-[#436256] midDesk:text-[0.875rem]">
-          {{ quote.name }} <span class="opacity-70">— {{ quote.role }}</span>
+          {{ quote.name }}<span class="opacity-70">, {{ quote.role }}</span>
         </figcaption>
       </figure>
     </div>

@@ -8,7 +8,7 @@
           “{{ quote.text }}”
         </blockquote>
         <figcaption class="mt-[1rem] font-cabin text-[1rem] text-[#4E695D] text-center">
-          {{ quote.name }} <span class="opacity-70">— {{ quote.role }}</span>
+          {{ quote.name }}<span class="opacity-70">, {{ quote.role }}</span>
         </figcaption>
       </figure>
 

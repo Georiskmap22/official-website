@@ -17,6 +17,9 @@ coverage
 # Raw field media. Originals stay out of the repo; the optimised web copies
 # live in public/media/. See katcha.md section 4.
 Katcha photos/
+# Camera-roll originals dropped in the repo root (e.g. 1788002795158.mp4, 1.8 GB).
+# The trimmed, re-encoded web copies live in public/media/katcha/video/.
+/[0-9]*.mp4
 
 /cypress/videos/
 /cypress/screenshots/

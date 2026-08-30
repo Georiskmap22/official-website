@@ -30,6 +30,13 @@ const mediaAppearances = [
         id: 4,
         src: 'vanguard.png',
         link: 'https://www.vanguardngr.com/2025/01/climate-change-group-calls-for-urgent-govt-actions-to-protect-schools-in-flood-prone-areas/'
+    },
+    {
+        // Second Tribune tile: the Katcha Ward rice/FARO 67 story, distinct from the
+        // schools piece on id 1.
+        id: 5,
+        src: 'tribune.png',
+        link: 'https://tribuneonlineng.com/organisation-trains-rice-farmers-distributes-flood-tolerant-seeds-to-boost-climate-resilience/'
     }
 ]
 

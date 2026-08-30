@@ -51,7 +51,7 @@ export const MapSheets = [
     title: 'Ward Boundary and the Area Denominator',
     theme: 'Administrative basis',
     takeaway:
-      'Measured against the authoritative GRID3 boundary the ward is 11,002 ha, not the 8,891 ha classified extent — a 19.2% gap in the denominator.',
+      'Measured against the authoritative GRID3 boundary the ward is 11,002 ha, not the 8,891 ha classified extent, a 19.2% gap in the denominator.',
     pdf: null,
   },
   {
@@ -91,7 +91,7 @@ export const MapSheets = [
     title: 'Inundation Method: HAND against the Bathtub',
     theme: 'Method comparison',
     takeaway:
-      'At a 2 m stage the terrain-normalised method maps 21,038 ha where a single water-level datum maps 2,668 ha — a factor of 7.9 across the decision-relevant range.',
+      'At a 2 m stage the terrain-normalised method maps 21,038 ha where a single water-level datum maps 2,668 ha, a factor of 7.9 across the decision-relevant range.',
     pdf: null,
   },
   {
@@ -200,7 +200,9 @@ export const FloodplainGallery = [
 // Published pieces first, then placeholders — see katcha.md section 3.1. To add a real
 // article, replace a `pending: true` entry with the shape used by article id 1.
 //
-// NOTE ON ARTICLES 1 AND 2: both headlines are reconstructed from their URL slugs. The
+// NOTE ON ARTICLES 1 AND 2: both headlines are reconstructed from their URL slugs.
+// Article 3 (Nigerian Tribune) is verbatim from the published page: Biola Azeez,
+// 11 August 2026. The
 // Nation and TheCable both sit behind bot challenges, so the exact headlines, dates,
 // bylines and lead images could not be read. Confirm the titles, and swap `image` for each
 // outlet's own lead image if GRMI has permission to use it. Card images are currently
@@ -226,58 +228,131 @@ export const Articles = [
       'A GRMI team member recording field observations in a standing rice field on the Katcha floodplain',
     pending: false,
   },
-  { id: 3, label: 'Article', note: 'Publication pending', pending: true },
+  {
+    id: 3,
+    publication: 'Nigerian Tribune',
+    text: 'Organisation trains rice farmers, distributes flood-tolerant seeds to boost climate resilience',
+    href: 'https://tribuneonlineng.com/organisation-trains-rice-farmers-distributes-flood-tolerant-seeds-to-boost-climate-resilience/',
+    image: '/media/katcha/photos/thumb/workshop-25.jpg',
+    imageAlt:
+      'The twenty farmers of the Katcha Ward Farmers\u2019 Association with their 10 kg FARO 67 seed packs, alongside GRMI staff and community leaders, after the handover',
+    pending: false,
+  },
   { id: 4, label: 'Article', note: 'Publication pending', pending: true },
 ]
 
-// Press appearances, rendered as a typographic credit row rather than logo tiles — the
-// outlets' mastheads could not be sourced (both serve a Cloudflare bot challenge to any
-// automated request), and setting the names in the page's own display face reads as a
-// deliberate "as seen in" credit instead of a row of empty logo slots.
+// Real press clippings, all screenshots of pages that actually exist. Two kinds, and the
+// distinction matters: `kind: 'project'` is coverage of this work, `kind: 'context'` is
+// flood reporting from Niger State and the wider region that sets the scene the section's
+// copy describes. Nothing here is mocked up or reconstructed.
 //
-// Adding coverage is one entry here; there are no placeholder slots to fill.
-export const MediaAppearances = [
+// The Children & Disaster collage (components/sections/SectionOne.vue) photographs physical
+// newsprint cuttings; this coverage ran online, so these are page captures instead.
+//
+// Positions are hand-placed for the desktop collage and were chosen against each image's
+// rendered width at h-[16.8rem], so changing a crop means rechecking its neighbours. Below
+// 800px PressScatter.vue ignores them and stacks the clippings.
+export const PressClippings = [
+  // Row 1
   {
     id: 1,
-    name: 'The Nation',
-    href: 'https://thenationonlineng.net/grmi-trains-niger-rice-farmers-distributes-flood-tolerant-seeds/',
+    kind: 'project',
+    src: '/media/katcha/press/clip-02.jpg',
+    alt: 'Nigerian Tribune, 11 August 2026: “Organisation trains rice farmers, distributes flood-tolerant seeds to boost climate resilience”, by Biola Azeez',
+    href: 'https://tribuneonlineng.com/organisation-trains-rice-farmers-distributes-flood-tolerant-seeds-to-boost-climate-resilience/',
+    top: '0.5rem',
+    left: '0%',
+    rotation: -2.5,
+    zIndex: 3,
   },
   {
     id: 2,
-    name: 'TheCable',
+    kind: 'project',
+    src: '/media/katcha/press/clip-01.jpg',
+    alt: 'TheCable, 7 August 2026: “How satellite flood maps and a new rice variety are helping Katcha’s farmers fight back against floods”',
     href: 'https://www.thecable.ng/how-satellite-flood-maps-and-a-new-rice-variety-are-helping-katchas-farmers-fight-back-against-floods/',
+    top: '1.5rem',
+    left: '36.5%',
+    rotation: 2.0,
+    zIndex: 4,
   },
-]
-
-// Partners, set in the same typographic credit style as MediaAppearances above: a short
-// display name in the page's display face, with the full name and location beneath.
-// `href` is optional — an entry without one renders as plain type rather than a link.
-export const Partners = [
   {
-    id: 1,
-    name: 'NCRI Badeggi',
-    sub: 'National Cereals Research Institute · Niger State',
-    href: null,
+    id: 3,
+    kind: 'context',
+    src: '/media/katcha/press/clip-07.jpg',
+    alt: 'The Guardian Nigeria, 3 June 2025: “Forum mourns victims of Mokwa flood, calls for emergency intervention”, by Bala Yahaya, over a photograph of destroyed homes in Mokwa, Niger State',
+    href: 'https://guardian.ng/news/forum-mourns-victims-of-mokwa-flood-calls-for-emergency-intervention/',
+    top: '0.5rem',
+    right: '0%',
+    rotation: -1.5,
+    zIndex: 2,
   },
-]
-
-// Same absolute offsets as the Children & Disaster clipping collage
-// (components/sections/SectionOne.vue), so the real press cuttings can drop straight in.
-export const PressScatterSlots = [
-  { id: 1, top: '0', left: '0', zIndex: 1 },
-  { id: 2, top: '0', left: '8.775rem', zIndex: 1 },
-  { id: 3, top: '0', left: '34.5rem', zIndex: 1 },
-  { id: 4, top: '0', right: '27rem', zIndex: 1 },
-  { id: 5, top: '0', right: '4.2rem', zIndex: 1 },
-  { id: 6, top: '8.19rem', left: '16rem', zIndex: 1 },
-  { id: 7, top: '5.19rem', left: '27.3rem', zIndex: 2 },
-  { id: 8, top: '14.44rem', left: '3.4rem', zIndex: 1 },
-  { id: 9, top: '15.25rem', left: '29.63rem', zIndex: 1 },
-  { id: 10, top: '10.25rem', right: '13.06rem', zIndex: 1 },
-  { id: 11, top: '25.8rem', left: '0', zIndex: 1 },
-  { id: 12, top: '25.44rem', left: '30.12rem', zIndex: 3 },
-  { id: 13, top: '15.81rem', right: '0', zIndex: 1 },
-  { id: 14, top: '31.125rem', left: '0', zIndex: 1 },
-  { id: 15, top: '30.5rem', left: '37.99rem', zIndex: 4 },
-  { id: 16, top: '29rem', right: '18.06rem', zIndex: 5 },
+  // Row 2
+  {
+    id: 4,
+    kind: 'context',
+    src: '/media/katcha/press/clip-08.jpg',
+    alt: 'Daily Trust: “Niger Flood: Family Loses 12 Members, Over 50 Almajirai Missing”',
+    href: 'https://dailytrust.com/niger-flood-family-loses-12-members-over-50-almajirai-missing/',
+    top: '19rem',
+    left: '0%',
+    rotation: 1.5,
+    zIndex: 5,
+  },
+  {
+    id: 5,
+    kind: 'context',
+    src: '/media/katcha/press/clip-06.jpg',
+    alt: 'Daily Trust, 27 September 2024: “Families Displaced As Flood Sacks 82 Communities In Niger”, on farmers in the Mokwa and Mashegu local government areas, over an aerial photograph of a submerged settlement',
+    href: 'https://dailytrust.com/flood-displaces-82-communities-in-niger/',
+    top: '20rem',
+    left: '46%',
+    rotation: -3.0,
+    zIndex: 6,
+  },
+  {
+    id: 6,
+    kind: 'context',
+    src: '/media/katcha/press/clip-09.jpg',
+    alt: 'BusinessDay, 8 June 2025: “The Mokwa flood: When nature went angry”, by Sikirat Shehu, over a photograph of rooftops standing in floodwater',
+    href: 'https://businessday.ng/life/article/the-mokwa-flood-when-nature-went-angry/',
+    top: '18.5rem',
+    right: '0%',
+    rotation: 2.5,
+    zIndex: 4,
+  },
+  // Row 3
+  {
+    id: 7,
+    kind: 'project',
+    src: '/media/katcha/press/clip-03.jpg',
+    alt: 'Nigerian Tribune report describing the 20 farmers who received 10 kg each of FARO 67, quoting GRMI founder Taiwo Ogunwumi',
+    href: 'https://tribuneonlineng.com/organisation-trains-rice-farmers-distributes-flood-tolerant-seeds-to-boost-climate-resilience/',
+    top: '37.5rem',
+    left: '2%',
+    rotation: 3.0,
+    zIndex: 7,
+  },
+  {
+    id: 8,
+    kind: 'project',
+    src: '/media/katcha/press/clip-04.jpg',
+    alt: 'Opening paragraphs of TheCable report, on the two hectares of rice lost to the flood and the harvest that fell from thirty bags to eight',
+    href: 'https://www.thecable.ng/how-satellite-flood-maps-and-a-new-rice-variety-are-helping-katchas-farmers-fight-back-against-floods/',
+    top: '38.5rem',
+    left: '34%',
+    rotation: -2.0,
+    zIndex: 5,
+  },
+  {
+    id: 9,
+    kind: 'project',
+    src: '/media/katcha/press/clip-05.jpg',
+    alt: 'TheCable explaining FARO 67 and the SUB1A gene, and its 2017 release through IRRI, AfricaRice and NCRI Badeggi',
+    href: 'https://www.thecable.ng/how-satellite-flood-maps-and-a-new-rice-variety-are-helping-katchas-farmers-fight-back-against-floods/',
+    top: '37rem',
+    right: '0%',
+    rotation: -3.5,
+    zIndex: 6,
+  },
 ]
