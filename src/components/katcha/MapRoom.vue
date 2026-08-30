@@ -13,7 +13,7 @@
         >
           <div class="w-full aspect-[4962/3506] overflow-hidden bg-[#0E1C16]">
             <img
-              :src="`/media/katcha/maps/thumb/${map.file}.jpg`"
+              :src="`/media/katcha/maps/thumb/${map.file}.webp`"
               :alt="`${map.title}, map sheet ${map.sheet}`"
               loading="lazy"
               class="w-full h-full object-cover group-hover:scale-[1.03] transitionAll"
@@ -38,7 +38,7 @@
 
     <div class="w-full grid place-items-center mt-[3rem]">
       <a
-        href="/media/katcha/maps/MAP_01_regional_setting.jpg"
+        href="/media/katcha/maps/MAP_01_regional_setting.webp"
         target="_blank"
         rel="noopener noreferrer"
         class="bg-[white] rounded-[100px] p-[1.5rem] midDesk:py-4 flex items-center gap-[0.75rem]"

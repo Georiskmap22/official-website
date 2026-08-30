@@ -51,7 +51,7 @@
 
                 <div class="w-full overflow-auto bg-[#F3F5F4] rounded-[4px]">
                   <img
-                    :src="`/media/katcha/maps/${map.file}.jpg`"
+                    :src="`/media/katcha/maps/${map.file}.webp`"
                     :alt="`${map.title}. ${map.takeaway}`"
                     class="w-full h-auto min-w-[900px]"
                   />
@@ -65,7 +65,7 @@
 
                 <div class="mt-[1rem] flex items-center gap-[1rem] flex-wrap">
                   <a
-                    :href="`/media/katcha/maps/${map.file}.jpg`"
+                    :href="`/media/katcha/maps/${map.file}.webp`"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="font-merri text-[0.875rem] text-[#4E695D] underline underline-offset-4 hover:text-[#0E1C16] transitionAll"

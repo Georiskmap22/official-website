@@ -195,7 +195,7 @@ const insights = [
         link: 'https://tribuneonlineng.com/organisation-trains-rice-farmers-distributes-flood-tolerant-seeds-to-boost-climate-resilience/',
         title: `Organisation trains rice farmers, distributes flood-tolerant seeds to boost climate resilience`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'katcha-handover.jpg',
+        src: 'katcha-handover.webp',
         id: 29,
         cover: true
     },

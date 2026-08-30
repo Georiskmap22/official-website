@@ -93,7 +93,17 @@ const scrollToTop = () =>{
             <div class="flex flex-col justify-start items-start mb-6" >
                 <div class="M20 white cabin" style="font-weight: 700;margin-bottom: 24px">CONTACT</div>
                 <a href="mailto: mails@georiskmap.org" class="flex items-center gap-4 cursor-pointer">
-                    <span class="material-icons">mail</span>
+                    <svg
+                      class="h-6 w-6 shrink-0"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      aria-hidden="true"
+                    >
+                      <rect x="2.5" y="5" width="19" height="14" rx="2" />
+                      <path d="M3 6.5l9 6 9-6" />
+                    </svg>
                     <span class="M16 white merri">mails@georiskmap.org</span>
                 </a>
             </div>

@@ -19,7 +19,7 @@
     <figure class="w-[95.8%] mx-auto">
       <FramedVideo
         src="/media/katcha/video/field-film.mp4"
-        poster="/media/katcha/video/field-film-poster.jpg"
+        poster="/media/katcha/video/field-film-poster.webp"
         label="field film of the FARO 67 handover and planting in Katcha Ward"
         :width="1280"
         :height="720"

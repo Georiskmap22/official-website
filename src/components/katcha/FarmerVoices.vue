@@ -17,7 +17,7 @@
         >
           <FramedVideo
             src="/media/katcha/video/farmer-interview.mp4"
-            poster="/media/katcha/video/farmer-interview-poster.jpg"
+            poster="/media/katcha/video/farmer-interview-poster.webp"
             label="interview with Ahmad Salihu, Secretary of the Katcha Ward Farmers' Association"
             class="tab:!max-w-[22rem] tab:!mx-auto"
           />
@@ -79,7 +79,7 @@
 
           <FramedVideo
             src="/media/katcha/video/floodplain.mp4"
-            poster="/media/katcha/video/floodplain-poster.jpg"
+            poster="/media/katcha/video/floodplain-poster.webp"
             label="field footage of FARO 67 being planted on the Katcha floodplain"
             :width="540"
             :height="934"

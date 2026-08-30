@@ -30,7 +30,18 @@ const showMenu = ref(false);
 <div @click="showMenu = !showMenu" class="break:flex hover:scale-105 rounded-lg hidden cursor-pointer transitionAll z-[999999] items-center ">
   <img class="h-12 w-12 transitionAll animate__animated animate__fadeInDown" src="../assets/icons/menu.svg" alt="burger" v-if="!showMenu">
   <div class="">
-    <span class="material-icons text-[3rem] transitionAll" v-if="showMenu">close</span>
+    <svg
+      v-if="showMenu"
+      class="h-12 w-12 transitionAll"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      aria-hidden="true"
+    >
+      <path d="M6 6l12 12M18 6L6 18" />
+    </svg>
   </div>
 </div>
 

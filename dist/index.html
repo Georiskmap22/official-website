@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/GRMI.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Fonts are requested here rather than @import-ed from style.css: an @import is
+         only discovered after the stylesheet itself has downloaded and parsed, which put
+         the font request two round trips behind first paint. Weights are the four the
+         site actually uses (400/500/600/700); the italic and 300/900 cuts, and Open Sans,
+         were being downloaded and never referenced. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- Google tag (gtag.js) -->
@@ -18,9 +24,8 @@
     </script>
 
     <title>Geohazards Risk Mapping Initiative</title>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script type="module" crossorigin src="/assets/index-ca0a1657.js"></script>
-    <link rel="stylesheet" href="/assets/index-4e6941cc.css">
+    <script type="module" crossorigin src="/assets/index-26cd6589.js"></script>
+    <link rel="stylesheet" href="/assets/index-597baed6.css">
   </head>
   <body>
     <div id="app"></div>
