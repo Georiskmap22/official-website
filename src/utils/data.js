@@ -6,22 +6,22 @@
     {
         id: 551,
         company: 'hotosm',
-        src: '/partner1.png'
+        src: '/partner1.webp'
     },
     {
         id: 552,
         company: 'hotosm',
-        src: '/partner2.png'
+        src: '/partner2.webp'
     },
     {
         id: 553,
         company: 'Openstreetmap',
-        src: '/partner3.png'
+        src: '/partner3.webp'
     },
     {
         id: 554,
         company: 'hotosm',
-        src: '/partner4.png'
+        src: '/partner4.webp'
     },
 
 ]

@@ -31,7 +31,7 @@ const insights = [
         link: 'https://www.esri.com/en-us/lg/industry/natural-resources/stories/harnessing-geospatial-technology-to-support-early-flood-warning-in-nigeria',
         title: `Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'esri.jpeg',
+        src: 'esri.webp',
         id: 11,
         cover: true
     },
@@ -39,7 +39,7 @@ const insights = [
         link: 'https://water.leeds.ac.uk/news/waterleeds-seminar-global-flood-risk-assessment-regional-realities/',
         title: 'water@leeds seminar: Global Flood Risk Assessment – Regional Realities',
         formatTitle: truncate(`Global Flood Risk Assessment - Regional Realities`,11),
-        src: 'leeds.jpeg',
+        src: 'leeds.webp',
         id: 1,
         cover: false
     },
@@ -47,14 +47,14 @@ const insights = [
         link: 'https://www.fairplanet.org/story/youth-led-initiative-tackles-nigerias-flood-crisis/',
         title: `youth led initiative tackles nigeria's flood crisis`,
         formatTitle: truncate(`youth led initiative tackles nigeria's flood crisis`,11),
-        src: 'fair.png',
+        src: 'fair.webp',
         id: 2
     },
     {
         link: 'https://precisegis.com.ng/humanitarian-mapping-exercise-for-improvement-in-hiv-aids-gender-based-violence-gbv-projects-in-nigeria',
         title: `humanitarian mapping exercise for improvement in hiv aids gnder based violence projects in nigeria`,
         formatTitle: truncate(`humanitarian mapping exercise for improvement in hiv aids gnder based violence projects in nigeria`,11),
-        src: 'mapathon1.jpeg',
+        src: 'mapathon1.webp',
         id: 3,
         cover: false
     },
@@ -62,14 +62,14 @@ const insights = [
         link: 'https://geospatiallypodcast.wordpress.com/2021/04/01/using-geospatial-technology-in-geohazard-mapping-saves-lives/',
         title: `podcast: using geospatial technology in geohazard mapping saves lives`,
         formatTitle: truncate(`using geospatial technology in geohazard mapping saves lives`,11),
-        src: 'podcast.jpeg',
+        src: 'podcast.webp',
         id: 4
     },
     {
         link: 'https://grmi.hashnode.dev/mapathon',
         title: `Collaborative Mapping of Flood zone with masters students of the University of Bonn, Germany.`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'mapathon.jpeg',
+        src: 'mapathon.webp',
         id: 5,
         cover: true
     },
@@ -77,21 +77,21 @@ const insights = [
         link: 'https://tasks.hotosm.org/organisations/geohazards-risk-mapping-initiative',
         title: `Collaborative mapping for flood preparedness by using HOTOSM platform`,
         formatTitle: truncate(`GEO Hazards Mapping Initiative`,11),
-        src: 'ins17.jpeg',
+        src: 'ins17.webp',
         id: 6
     },
     {
         link: 'https://www.icirnigeria.org/study-in-ibeju-lekki-32685-primary-school-pupils-are-at-risk-of-flooding/',
         title: `Study: In Ibeju-Lekki, 32,685 primary school pupils are at risk of flooding`,
         formatTitle: truncate(`Study: In Ibeju-Lekki, 32,685 primary school pupils are at risk of flooding`,11),
-        src: 'ins8.png',
+        src: 'ins8.webp',
         id: 8
     },
     {
         link: 'https://www.preventionweb.net/news/gp2022-ignite-stage-improving-flood-preparedness-communities-nigeria-through-provision-flood',
         title: `GP2022 Ignite Stage: Improving flood preparedness for communities in Nigeria through the provision of flood early warning maps`,
         formatTitle: truncate(`GP2022 Ignite Stage: Improving flood preparedness for communities in Nigeria through the provision of flood early warning maps`,11),
-        src: 'ins16.jpeg',
+        src: 'ins16.webp',
         id: 9,
         cover: false
     },
@@ -99,7 +99,7 @@ const insights = [
         link: 'https://sambusgeospatial.com/wp-content/uploads/2023/11/Sambus-Newsletter-8th-Edition-3.pdf',
         title: `Harnessing GIS to Support Early Flood Warning in Nigeria - Sambus Technology Newsletter`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'ins10.png',
+        src: 'ins10.webp',
         id: 10,
         cover: true
     },
@@ -107,7 +107,7 @@ const insights = [
         link: 'https://storymaps.arcgis.com/stories/a34fab4b205048e6af22ec8df1f83e8e',
         title: `In commensuration of the GIS Day 2021, a youth-led initiative "Geohazard Risk Mapping" Initiative hosted a virtual GISday event.`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins15.jpeg',
+        src: 'ins15.webp',
         id: 12,
         cover: true
     },
@@ -115,7 +115,7 @@ const insights = [
         link: 'https://globalplatform.undrr.org/conference-event/improving-flood-preparedness-communities-nigeria-through-provision-flood-early',
         title: `Improving flood preparedness for communities in Nigeria through the provision of flood early warning maps.`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins19.png',
+        src: 'ins19.webp',
         id: 12,
         cover: false
     },
@@ -123,7 +123,7 @@ const insights = [
         link: 'https://undark.org/2023/05/04/mapping-flood-risk-for-nigerias-internally-displaced-people/',
         title: `Mapping Flood Risk for Nigeria’s Internally Displaced People`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins12.jpg',
+        src: 'ins12.webp',
         id: 14,
         cover: true
     },
@@ -131,7 +131,7 @@ const insights = [
         link: 'https://www.downtoearth.org.in/news/africa/how-climate-change-is-wreaking-havoc-on-communities-in-niger-delta-85308',
         title: `How climate change is wreaking havoc on communities in Niger Delta`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins18.jpg',
+        src: 'ins18.webp',
         id: 15,
         cover: true
     },
@@ -139,7 +139,7 @@ const insights = [
         link: 'https://www.youthmappers.org/post/community-mapping-to-improve-flood-preparedness-and-disaster-risk-reduction',
         title: `COMMUNITY MAPPING TO IMPROVE FLOOD PREPAREDNESS AND DISASTER RISK REDUCTION`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins22.png',
+        src: 'ins22.webp',
         id: 16,
         cover: false
     },
@@ -147,7 +147,7 @@ const insights = [
         link: 'https://blogs.lse.ac.uk/africaatlse/2024/06/06/green-infrastructure-is-needed-to-tackle-flooding-in-lagos',
         title: `Green infrastructure is needed to tackle flooding in Lagos`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins23.jpg',
+        src: 'ins23.webp',
         id: 17,
         cover: false
     },
@@ -155,7 +155,7 @@ const insights = [
         link: 'https://www.theafricareport.com/360739/nigeria-flooding-wreaks-havoc-amid-climate-change-concerns/',
         title: `Nigeria: Flooding wreaks havoc amid climate change concerns`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins24.png',
+        src: 'ins24.webp',
         id: 18,
         cover: true
     },
@@ -163,7 +163,7 @@ const insights = [
         link: 'https://www.vanguardngr.com/2025/01/climate-change-group-calls-for-urgent-govt-actions-to-protect-schools-in-flood-prone-areas/',
         title: `Climate Change: Group calls for urgent govt actions to protect schools in flood-prone areas`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins25.png',
+        src: 'ins25.webp',
         id: 25,
         cover: true
     },
@@ -171,7 +171,7 @@ const insights = [
         link: 'https://tribuneonlineng.com/?p=1026226',
         title: `Invest in flood-resilient schools, group urges FG, states`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins26.png',
+        src: 'ins26.webp',
         id: 26,
         cover: true
     },
@@ -179,7 +179,7 @@ const insights = [
         link: 'https://businessday.ng/life/article/how-youth-led-initiative-is-empowering-kogis-future-generation-to-combat-flood-risks-others/',
         title: `How youth-led initiative is empowering Kogi’s future generation to combat flood risks, others`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins26.png',
+        src: 'ins26.webp',
         id: 27,
         cover: true
     },
@@ -187,7 +187,7 @@ const insights = [
         link: 'https://newtelegraphng.com/flooding-ngo-launches-disaster-risk-reduction-initiative-in-kogi/',
         title: `Flooding: NGO Launches Disaster Risk Reduction Initiative In Kogi`,
         formatTitle: truncate(`Harnessing Geospatial Technology to Support Early Flood Warning in Nigeria`,11),
-        src: 'ins27.png',
+        src: 'ins27.webp',
         id: 28,
         cover: true
     },

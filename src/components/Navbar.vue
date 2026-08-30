@@ -16,7 +16,7 @@ const showMenu = ref(false);
   
 <div class="flex gap-[5rem]">
   <router-link to="/" class="animate__animated animate__fadeInDown">
-      <img src='../assets/icons/GRMI_logo.png' alt="Responsive image" width="183" style="color: green;">
+      <img src='../assets/icons/GRMI_logo.webp' alt="Responsive image" width="183" style="color: green;">
     </router-link>
     <div class=" w-full flex items-center animate__animated animate__fadeInDown">
       <div v-for="link in NavData" :key="link.id" class="flex justify-between items-center break:hidden"> 

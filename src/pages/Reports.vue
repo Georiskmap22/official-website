@@ -33,7 +33,7 @@ const reports = [
         link: 'https://drive.google.com/file/d/1mZaM37usZfZU57pCwKdBW3Hv_Fy2h5zL/view?usp=sharing',
         title: `2021 Annual Report`,
         formatTitle: truncate(`youth led initiative tackles nigeria's flood crisis`,11),
-        src: 'report1.png',
+        src: 'report1.webp',
         id: 2
     },
 ]

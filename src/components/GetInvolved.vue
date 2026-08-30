@@ -122,7 +122,7 @@ const closeModal = ()=>{
   opacity: 0;
 }
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg4.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg4.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

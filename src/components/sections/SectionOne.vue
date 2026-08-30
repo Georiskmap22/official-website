@@ -32,7 +32,7 @@ const getImgUrl = (path) => {
 const images = [
    {
        id: 1,
-       source: 'papercut1.png',
+       source: 'papercut1.webp',
        top: "0",
        left: "0",
        rotation: 0,
@@ -40,7 +40,7 @@ const images = [
    },
    {
        id: 2,
-       source: 'papercut2.png',
+       source: 'papercut2.webp',
        top: "0",
        left: "8.775rem",
        rotation: 0,
@@ -48,7 +48,7 @@ const images = [
    },
    {
        id: 3,
-       source: 'papercut3.png',
+       source: 'papercut3.webp',
        top: "0",
        left: "34.5rem",
        rotation: 0,
@@ -56,7 +56,7 @@ const images = [
    },
    {
        id: 4,
-       source: 'papercut4.png',
+       source: 'papercut4.webp',
        top: "0",
        right: "27rem",
        rotation: 0,
@@ -64,7 +64,7 @@ const images = [
    },
    {
        id: 5,
-       source: 'papercut5.png',
+       source: 'papercut5.webp',
        top: "0",
        right: "4.2rem",
        rotation: 0,
@@ -72,7 +72,7 @@ const images = [
    },
    {
        id: 6,
-       source: 'papercut6.png',
+       source: 'papercut6.webp',
        top: "8.19rem",
        left: "16rem",
        rotation: 0,
@@ -80,7 +80,7 @@ const images = [
    },
    {
        id: 7,
-       source: 'papercut7.png',
+       source: 'papercut7.webp',
        top: "5.19rem",
        left: "27.3rem",
        rotation: 0,
@@ -88,7 +88,7 @@ const images = [
    },
    {
        id: 8,
-       source: 'papercut8.png',
+       source: 'papercut8.webp',
        left: "3.4rem",
        top: "14.44rem",
        rotation: 0,
@@ -96,7 +96,7 @@ const images = [
    },
    {
        id: 9,
-       source: 'papercut9.png',
+       source: 'papercut9.webp',
        top: "15.25rem",
        left: "29.63rem",
        rotation: 0,
@@ -104,7 +104,7 @@ const images = [
    },
    {
        id: 10,
-       source: 'papercut10.png',
+       source: 'papercut10.webp',
        top: "10.25rem",
        right: "13.06rem",
        rotation: 0,
@@ -112,7 +112,7 @@ const images = [
    },
    {
        id: 11,
-       source: 'papercut11.png',
+       source: 'papercut11.webp',
        top: "25.8rem",
        left: "0",
        rotation: 0,
@@ -120,7 +120,7 @@ const images = [
    },
    {
        id: 12,
-       source: 'papercut12.png',
+       source: 'papercut12.webp',
        top: "25.44rem",
        left: "30.12rem",
        rotation: 0,
@@ -128,7 +128,7 @@ const images = [
    },
    {
        id: 13,
-       source: 'papercut13.png',
+       source: 'papercut13.webp',
        right: "0",
        top: "15.81rem",
        rotation: 0,
@@ -136,7 +136,7 @@ const images = [
    },
    {
        id: 14,
-       source: 'papercut14.png',
+       source: 'papercut14.webp',
        top: "31.125rem",
        left: "0",
        rotation: 0,
@@ -144,7 +144,7 @@ const images = [
    },
    {
        id: 15,
-       source: 'papercut15.png',
+       source: 'papercut15.webp',
        top: "30.5rem",
        left: "37.99rem",
        rotation: 0,
@@ -152,7 +152,7 @@ const images = [
    },
    {
        id: 16,
-       source: 'papercut16.png',
+       source: 'papercut16.webp',
        top: "29rem",
        right: "18.06rem",
        rotation: 0,

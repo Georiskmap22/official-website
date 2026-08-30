@@ -7,18 +7,18 @@
     </div>
     <div class="flex flex-col">
       <article class="appearances grid grid-cols-5 mob:grid-cols-4 place-items-center gap-[2rem]">
-        <img src="../assets/icons/undark.jfif" class=" w-[10rem] justify-self-center" alt="">
-        <img src="../assets/icons/businessday.png" class="" alt="">
-        <img src="../assets/icons/logo5.jpeg" class="" alt="">
-        <img src="../assets/icons/oneyw.jpeg" class="" alt="">
-        <img src="../assets/icons/gswr.jpeg" class="" alt="">
-        <img src="../assets/icons/icir.png" class="w-[16rem]" alt="">
-        <img src="../assets/icons/esri.png" class="w-[5rem]" alt="">
-        <img src="../assets/icons/hot.png" class="" alt="">
-        <img src="../assets/icons/fair.png" class="" alt="">
-        <img src="../assets/icons/audi.jpeg" class="" alt="">
-        <img src="../assets/icons/africa.jpg" class="" alt="">
-        <!-- <img src="../assets/icons/blue.png" class="" alt=""> -->
+        <img src="../assets/icons/undark.webp" class=" w-[10rem] justify-self-center" alt="">
+        <img src="../assets/icons/businessday.webp" class="" alt="">
+        <img src="../assets/icons/logo5.webp" class="" alt="">
+        <img src="../assets/icons/oneyw.webp" class="" alt="">
+        <img src="../assets/icons/gswr.webp" class="" alt="">
+        <img src="../assets/icons/icir.webp" class="w-[16rem]" alt="">
+        <img src="../assets/icons/esri.webp" class="w-[5rem]" alt="">
+        <img src="../assets/icons/hot.webp" class="" alt="">
+        <img src="../assets/icons/fair.webp" class="" alt="">
+        <img src="../assets/icons/audi.webp" class="" alt="">
+        <img src="../assets/icons/africa.webp" class="" alt="">
+        <!-- <img src="../assets/icons/blue.webp" class="" alt=""> -->
       </article>
     </div>
   </section>

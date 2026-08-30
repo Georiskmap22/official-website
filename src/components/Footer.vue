@@ -31,23 +31,23 @@ const scrollToTop = () =>{
          
             <div class="flex flex-col">
                 <router-link @click="scrollToTop" to="/">
-                    <img src='../assets/icons/GRMI_logo.png' alt="Responsive image" width="183">
+                    <img src='../assets/icons/GRMI_logo.webp' alt="Responsive image" width="183">
                 </router-link>
 
                 <div class="flex gap-4 mt-4 mb-6 ml-2">
                 <div>
                     <a href="https://www.linkedin.com/company/geohazards-risk-mapping-initiative/">
-                        <img src='../assets/icons/Linkedin.png' alt="GRMI LINKEDIN">
+                        <img src='../assets/icons/Linkedin.webp' alt="GRMI LINKEDIN">
                     </a>
                 </div>
                 <div>
                     <a href=https://twitter.com/GeohazardMaps>
-                        <img src='../assets/icons/Twitter.png' alt="GRMI TWITTER">
+                        <img src='../assets/icons/Twitter.webp' alt="GRMI TWITTER">
                     </a>
                 </div>
                 <div>
                     <a href="https://www.youtube.com/@geohazardsriskmappinginiti3596">
-                        <img src='../assets/icons/youtube.png' alt="GRMI YOUTUBE">
+                        <img src='../assets/icons/youtube.webp' alt="GRMI YOUTUBE">
                     </a>
                 </div>
             </div>
