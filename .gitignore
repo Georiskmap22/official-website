@@ -33,3 +33,5 @@ Katcha photos/
 *.njsproj
 *.sln
 *.sw?
+.vercel
+.env*.local
