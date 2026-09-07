@@ -39,14 +39,14 @@ onMounted(() => {
                     data-aos-duration="1000" data-aos-delay="300">
                         <div class="flex items-center justify-center gap-4 w-full">   
                             <div>
-                                <img src="../assets/icons/who_are_we1.png" class="" alt="Responsive image">
+                                <img src="../assets/icons/who_are_we1.webp" class="" alt="Responsive image">
                             </div>
                             <div>
-                                <img src="../assets/icons/who_are_we2.png" class=" justify-self-end" alt="Responsive image">
+                                <img src="../assets/icons/who_are_we2.webp" class=" justify-self-end" alt="Responsive image">
                             </div>
                         </div>
                         <div class="py-4">
-                            <img src="../assets/icons/who_are_we3.png" class="img-fluid" alt="Responsive image">
+                            <img src="../assets/icons/who_are_we3.webp" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
             </div>

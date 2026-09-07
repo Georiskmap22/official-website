@@ -33,42 +33,42 @@ const awards = [
         link: 'https://nigerianyouthsdgs.org/world-environment-day-six-young-people-advocating-for-a-sustainable-future-and-healthier-climate-in-nigeria/',
         title: `World Environment Day: Six Young People Advocating for a Sustainable Future and Healthier Climate in Nigeria`,
         formatTitle: truncate(`youth led initiative tackles nigeria's flood crisis`,11),
-        src: 'award1.jpeg',
+        src: 'award1.webp',
         id: 2
     },
     {
         link: 'https://www.geospatialworld.net/rising-stars/2022/pdf/50-Rising-Star-Booklet.pdf',
         title: `50 rising stars of the Geospatial industry for 2022`,
         formatTitle: truncate(`humanitarian mapping exercise for improvement in hiv aids gnder based violence projects in nigeria`,11),
-        src: 'award2.jpeg',
+        src: 'award2.webp',
         id: 3
     },
     {
         link: 'https://www.facebook.com/UNVolunteersng/posts/hi-the-race-to-becoming-the-winner-of-unv-nigeria-volunteers-country-award-is-st/185076013835190/',
         title: `UNV Nigeria Volunteers Country Award`,
         formatTitle: truncate(`using geospatial technology in geohazard mapping saves lives`,11),
-        src: 'award3.jpeg',
+        src: 'award3.webp',
         id: 4
     },
     {
         link: 'https://www.un.org/youthenvoy/youthleadsolutions-climate/',
         title: `Climate Action and Biodiversity Session at #YouthLead Innovation Festival`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'award4.jpeg',
+        src: 'award4.webp',
         id: 5
     },  
     {
         link: 'https://drive.google.com/file/d/15xlhc-fDQCWkAzIFMqUfdp9Yz7-VUvmh/view?usp=sharing',
         title: `Recognition Letter from the United Nations Secretary-General’s Envoy on Youth`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'award5.jpeg',
+        src: 'award5.webp',
         id: 6
     },  
     {
         link: 'https://www.instagram.com/p/C8MjHVRqhCf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA%3D%3D&img_index=2',
         title: `Audi Environmental Foundation Award`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'award7.jpg',
+        src: 'award7.webp',
         id: 7,
         object: 'cover'
     },  
@@ -76,7 +76,7 @@ const awards = [
         link: 'https://www.instagram.com/p/C-kr-qttXnB/?igsh=MTNuaXdldmF5aXVpaA==',
         title: `17 young Africans who through digitalization are accelerating the progress of the Sustainable Development Goals (SDGs)`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'award8.png',
+        src: 'award8.webp',
         id: 8,
     },  
 ]

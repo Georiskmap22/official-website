@@ -1,0 +1,1 @@
+import{o as a,c as r,a as e,F as n,f as t,b as o,d as s}from"./index-d346f4ec.js";const c=t("div",{class:"py-6 min-h-[30vh] text-center text-2xl"},[t("h3",null,"Sorry we're not currently hiring at the moment")],-1),h={__name:"Career",setup(_){return(l,m)=>(a(),r(n,null,[e(o),c,e(s)],64))}};export{h as default};

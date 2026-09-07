@@ -43,7 +43,7 @@ const closeModal = ()=>{
 </script>
 
 <template>
-    <div class="h-auto">
+    <div class="h-auto" id="get-involved">
         <div class="hero-image flex justify-center items-center p-6 py-20">
             <div class="hero-text justify-center items-center w-[80%] tab:w-[90%] mob:w-[95%]">
                 <div class="flex items-center justify-center mb-4">
@@ -122,7 +122,7 @@ const closeModal = ()=>{
   opacity: 0;
 }
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg4.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg4.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
