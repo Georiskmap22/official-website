@@ -32,35 +32,35 @@ const researchs = [
         link: 'https://www.graphyonline.com/archives/archivedownload.php?pid=IJEES-187',
         title: `Where would be Flooded in 2021: A Geospatial Analysis of Flood Susceptibility in Amuwo Odofin, Lagos State, Nigeria`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'paper4.jpeg',
+        src: 'paper4.webp',
         id: 1
     },
     {
         link: 'https://www.researchgate.net/publication/366634874_I_lost_all_I_had_to_the_flood_A_Post-Disaster_Assessment_of_the_2018_Kogi_State_Flood_in_Nigeria?enrichId=rgreq-75e721bb7a21c9f65223340874132830-XXX&enrichSource=Y292ZXJQYWdlOzM2NjYzNDg3NDtBUzoxMTQzMTI4MTEwOTgyMjk1OUAxNjcyMjIyNjg0MzMy&el=1_x_3&_esc=publicationCoverPdf',
         title: `A Post-Disaster Assessment of the 2018 Kogi State Flood in Nigeria`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'paper5.jpeg',
+        src: 'paper5.webp',
         id: 2
     },
     {
         link: 'https://www.researchsquare.com/article/rs-1721944/v1',
         title: `Flood Susceptibility Mapping of Internally Displaced Persons Camps in Maiduguri, Borno State Nigeria`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'paper3.jpeg',
+        src: 'paper3.webp',
         id: 3
     },
     {
         link: 'https://drive.google.com/file/d/19S1gZ97LBZ4BtP5sh8A3LVW-Q_2afiW2/view?usp=sharing',
         title: `GEOSPATIAL MAPPING OF FLOOD HAZARD USING MULTI-CRITERIA APPROACH IN FUFORE LOCAL GOVERNMENT AREA, NORTH EASTERN NIGERIA`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'paper2.jpeg',
+        src: 'paper2.webp',
         id: 5
     },
     {
         link: 'https://link.springer.com/article/10.1007/s40808-021-01197-2',
         title: `Multi-criteria modelling of drought: a study of Brandenburg Federal State, Germany`,
         formatTitle: truncate(`sambus news letter`,11),
-        src: 'paper1.jpeg',
+        src: 'paper1.webp',
         id: 6
     },
 ]

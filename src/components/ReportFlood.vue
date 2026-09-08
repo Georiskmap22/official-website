@@ -3,7 +3,7 @@
 </script>
 <template>
     <section class="w-full grid place-items-center h-[30rem] relative">
-        <img src="../assets/icons/flood_img.jpg" class=" w-full h-full object-cover bottom-0 left-0 z-[1]" alt="">
+        <img src="../assets/icons/flood_img.webp" class=" w-full h-full object-cover bottom-0 left-0 z-[1]" alt="">
         <div class="absolute w-full h-full bg-transparent z-[2]">
 
         </div>

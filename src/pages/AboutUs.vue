@@ -79,17 +79,17 @@
                       <div class="flex gap-4 mt-[0.5rem]">
                       <div>
                           <a href="https://twitter.com/T_Ogunwumi">
-                              <img src='../assets/icons/userTwitter.png' alt="GRMI Twitter">
+                              <img src='../assets/icons/userTwitter.webp' alt="GRMI Twitter">
                           </a>
                       </div>
                       <div>
                           <a href="https://www.linkedin.com/in/taiwo-ogunwumi/">
-                              <img src='../assets/icons/userLinkedin.png' alt="GRMI linkedin">
+                              <img src='../assets/icons/userLinkedin.webp' alt="GRMI linkedin">
                           </a>
                       </div>
                       <div>
                           <a href="mailto: taiwoogunwumi@yahoo.com" target="_blank">
-                              <img src='../assets/icons/userMail.png' alt="GRMI MAIL">
+                              <img src='../assets/icons/userMail.webp' alt="GRMI MAIL">
                           </a>
                       </div>
                   </div>
@@ -100,7 +100,7 @@
                     <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689055/about_us1_lzlcgq.png'>
                     <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689055/about_us2_xvjcdy.png'>
                     <img class="item" src='https://res.cloudinary.com/dmgwwzsnk/image/upload/v1734689056/about_us3_ib5x8s.png'>
-                    <img class="item" src='../assets/icons/about_us4.png'>
+                    <img class="item" src='../assets/icons/about_us4.webp'>
                   </div>
                 </div>
               </div>

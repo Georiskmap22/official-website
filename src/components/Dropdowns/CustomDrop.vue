@@ -23,7 +23,7 @@ const props = defineProps({
           >
           {{ props.model.name }}
          
-           <img src="../../assets/icons/arrow-down.png" :class="[
+           <img src="../../assets/icons/arrow-down.webp" :class="[
             open ? 'img-fluid bi-arrow-down arrow-default rotate-180 transitionAll' : 'img-fluid bi-arrow-down arrow-default transitionAll'
            ]"
                alt="Responsive image">

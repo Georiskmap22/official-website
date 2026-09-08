@@ -1,0 +1,9 @@
+# The Vercel CLI does not read .gitignore, so the raw camera originals and the
+# committed build output have to be excluded here or they get uploaded (2.1 GB,
+# and the 1.8 GB original trips Vercel's 100 MB per-file limit).
+1788002795158.mp4
+/[0-9]*.mp4
+Katcha photos/
+
+# Vercel runs `vite build` itself; the tracked dist/ is 183 MB of dead weight here.
+dist

@@ -36,7 +36,7 @@ onMounted(() => {
 } */
 
 .container-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg3.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../assets/icons/bg3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

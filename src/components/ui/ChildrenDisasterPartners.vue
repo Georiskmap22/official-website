@@ -13,7 +13,7 @@
   const partners = [
       {
           id: 1,
-          src: 'thePossibilists.png',
+          src: 'thePossibilists.webp',
           link: `https://tribuneonlineng.com/?p=1026226`
       },
   ]

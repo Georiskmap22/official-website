@@ -31,7 +31,7 @@ const floodEvents = [
         link: 'https://www.arcgis.com/apps/webappviewer/index.html?id=2b0fa66b05534e7780e7396234b7c6f3',
         title: 'Flood Susceptibility Map of Ikorodu',
         formatTitle: truncate(`Global Flood Risk Assessment - Regional Realities`,11),
-        src: 'floodmap3.jpeg',
+        src: 'floodmap3.webp',
         id: 1,
         tag: 'map'
     },
@@ -39,7 +39,7 @@ const floodEvents = [
         link: 'https://africageoportal.maps.arcgis.com/apps/webappviewer/index.html?id=d07dba63dbd84fbbb555d6c6087759f3',
         title: `Flood Susceptibility Map of Ilorin`,
         formatTitle: truncate(`using geospatial technology in geohazard mapping saves lives`,11),
-        src: 'floodmap2.jpeg',
+        src: 'floodmap2.webp',
         id: 3,
         tag: 'map'
     },
@@ -47,14 +47,14 @@ const floodEvents = [
         link: 'https://africageoportal.maps.arcgis.com/apps/webappviewer/index.html?id=7cba8204d65c4ceda63c7c89e632606b',
         title: `Flood Susceptibility Map of Maiduguri City`,
         formatTitle: truncate(`All about GRMI hashnode mapathon`,11),
-        src: 'floodmap1.jpeg',
+        src: 'floodmap1.webp',
         id: 4,
         tag: 'map'
     },
     {
         link: 'https://africageoportal.maps.arcgis.com/apps/webappviewer/index.html?id=1205a4ecde984a55841f93e837828a70',
         title: `Flood Susceptibility Map of Ilorin`,
-        src: 'ins20.png',
+        src: 'ins20.webp',
         id: 2,
         tag: 'map'
     },
@@ -62,7 +62,7 @@ const floodEvents = [
         link: 'https://storymaps.arcgis.com/stories/39d5b1d1e2114b74aebdf8fe73ecb993',
         title: `Strengthening Community Resilience through Collaborative Geo-Hazard Risk Mapping in Jos North, Nigeria`,
         formatTitle: truncate(`Strengthening Community Resilience through Collaborative Geo-Hazard Risk Mapping in Jos North, Nigeria`,11),
-        src: 'ins7.png',
+        src: 'ins7.webp',
         tag: 'storymap',
         id: 7
     },
@@ -70,7 +70,7 @@ const floodEvents = [
         link: 'https://storymaps.arcgis.com/stories/528572dd623141589a03bbba059df683',
         title: `Mapping of Flood-Prone Areas in Kogi State Nigeria`,
         formatTitle: truncate(`Strengthening Community Resilience through Collaborative Geo-Hazard Risk Mapping in Jos North, Nigeria`,11),
-        src: 'ins21.png',
+        src: 'ins21.webp',
         tag: 'storymap',
         id: 7
     },

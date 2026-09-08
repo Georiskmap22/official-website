@@ -30,7 +30,7 @@
             <button class="transitionAll px-6 py-4 text-[0.8rem] bg-brandgreen text-white hover:text-brandgreen hover:bg-white hover:outline-2 shadow-md  merri rounded-[0.25rem] tab2:px-4 tab2:py-2">View All</button>
         </div>
         <div class="">
-            <img src="../assets/img/floodMap.jpg" alt="" class="object-fill w-full h-full" loading="lazy">
+            <img src="../assets/img/floodMap.webp" alt="" class="object-fill w-full h-full" loading="lazy">
         </div>
     </div>
    </section>

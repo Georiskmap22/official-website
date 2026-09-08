@@ -490,7 +490,7 @@ onMounted(()=>{
 <style scoped>
     .background {
         background-size: cover;
-        background-image: url('/public/ins26.png');
+        background-image: url('/ins26.webp');
         background-color: rgba(0, 255, 255, 0.25);
         background-blend-mode: overlay;
         background-repeat: no-repeat;

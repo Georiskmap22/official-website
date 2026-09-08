@@ -5,6 +5,9 @@ import SubscribeNewsletterModal from "./modals/SubscribeNewsletterModal.vue";
 
 const isOpen = ref(false)
 const emailRef = ref("")
+
+// Read at render time so the copyright line does not need editing each January.
+const currentYear = new Date().getFullYear()
 const openModal = ()=>{
     isOpen.value=true;
 }
@@ -28,23 +31,23 @@ const scrollToTop = () =>{
          
             <div class="flex flex-col">
                 <router-link @click="scrollToTop" to="/">
-                    <img src='../assets/icons/GRMI_logo.png' alt="Responsive image" width="183">
+                    <img src='../assets/icons/GRMI_logo.webp' alt="Responsive image" width="183">
                 </router-link>
 
                 <div class="flex gap-4 mt-4 mb-6 ml-2">
                 <div>
                     <a href="https://www.linkedin.com/company/geohazards-risk-mapping-initiative/">
-                        <img src='../assets/icons/Linkedin.png' alt="GRMI LINKEDIN">
+                        <img src='../assets/icons/Linkedin.webp' alt="GRMI LINKEDIN">
                     </a>
                 </div>
                 <div>
                     <a href=https://twitter.com/GeohazardMaps>
-                        <img src='../assets/icons/Twitter.png' alt="GRMI TWITTER">
+                        <img src='../assets/icons/Twitter.webp' alt="GRMI TWITTER">
                     </a>
                 </div>
                 <div>
                     <a href="https://www.youtube.com/@geohazardsriskmappinginiti3596">
-                        <img src='../assets/icons/youtube.png' alt="GRMI YOUTUBE">
+                        <img src='../assets/icons/youtube.webp' alt="GRMI YOUTUBE">
                     </a>
                 </div>
             </div>
@@ -90,7 +93,17 @@ const scrollToTop = () =>{
             <div class="flex flex-col justify-start items-start mb-6" >
                 <div class="M20 white cabin" style="font-weight: 700;margin-bottom: 24px">CONTACT</div>
                 <a href="mailto: mails@georiskmap.org" class="flex items-center gap-4 cursor-pointer">
-                    <span class="material-icons">mail</span>
+                    <svg
+                      class="h-6 w-6 shrink-0"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      aria-hidden="true"
+                    >
+                      <rect x="2.5" y="5" width="19" height="14" rx="2" />
+                      <path d="M3 6.5l9 6 9-6" />
+                    </svg>
                     <span class="M16 white merri">mails@georiskmap.org</span>
                 </a>
             </div>
@@ -118,7 +131,7 @@ const scrollToTop = () =>{
 
             <div class="flex merri text-center flex-col w-full justify-center items-center" style="margin-top: 114px;">
                 <div class="M13 white d-flex justify-content-center mb-3">
-                    2020 - 2023 georiskmap.org © ALL RIGHTS RESERVED
+                    2020 - {{ currentYear }} georiskmap.org © ALL RIGHTS RESERVED
                     <!-- <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a> -->
                 </div>
                 <div class="M10 white d-flex justify-content-center">

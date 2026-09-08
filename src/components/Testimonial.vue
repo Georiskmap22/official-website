@@ -9,7 +9,7 @@ const testimonials = [
     line: "Ilorin Climate Action Project Lead, Ilorin Hub - Nigeria",
     message:
       "The flood maps produced by Geohazard Risk Mapping Initiative were an absolute game changer for our climate action project. With their accurate and detailed mapping, we were able to better assess the communities that are susceptible to floods in Ilorin East and West Local Government Area of Kwara State Nigeria. The maps guide our flood awareness campaign and other climate adaptation project that we conducted in those communities.",
-    src: "testimony1.jpeg",
+    src: "testimony1.webp",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const testimonials = [
     line: "",
     message:
       "The flood maps created by the Geohazard Risk Mapping Initiative have offered insightful data that governments, communities, and individuals can use to better prepare for flood events.",
-    src: "testimony2.jpg",
+    src: "testimony2.webp",
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const testimonials = [
     line: "",
     message:
       "GRMI’s commitment to advancing the application of GIS in tackling flood-related challenges is truly commendable, as they have empowered their communities with essential skills in flood risk mapping. They have enabled more informed decision-making and fostered resilience in communities frequently impacted by floods. Their dedication to leveraging location intelligence for disaster risk reduction is a testament to their vital role in promoting sustainable development and protecting lives and livelihoods in Africa.",
-    src: "testimony3.png",
+    src: "testimony3.webp",
   },
 ];
 
